@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding">
+
+    <com.compunet.stuforia.JustifiedTextView
+        xmlns:noghteh="http://noghteh.ir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="3dp"
+        android:paddingRight="4dp"
+        android:layout_marginBottom="0dp"
+        noghteh:textSize="@dimen/text_smaller"
+        noghteh:text="Power of attorney is granted to an &quot;attorney-in-fact&quot; or &quot;agent&quot; to give that individual in legal authority to make decision for an incapacitated &quot;principal&quot;. The lows for creating a power of attorney vary from state to state, but there are certain general guidelines to follow. Before you or a loved one signs any document, however, be sure to consult with an attorney concerning all applicable laws and regulation."
+        noghteh:textColor="#515151"
+        />
+
+</LinearLayout>

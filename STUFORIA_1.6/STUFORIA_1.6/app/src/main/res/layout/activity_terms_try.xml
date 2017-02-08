@@ -1,0 +1,483 @@
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/padding"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/layout_terms"
+            android:background="@drawable/scroll_bar_vertical_red"
+            android:gravity="center"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:src="@drawable/logo"
+                android:layout_marginBottom="@dimen/margin"
+                android:layout_marginTop="@dimen/margin"
+                />
+
+        </LinearLayout>
+        <TextView
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Terms of use agreement"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_small"
+            android:layout_marginBottom="@dimen/margin"
+            android:textColor="@color/text_Black"
+            android:layout_marginTop="@dimen/margin" />
+        <com.compunet.stuforia.JustifiedTextView
+            xmlns:noghteh="http://noghteh.ir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="3dp"
+            android:layout_marginBottom="0dp"
+            noghteh:text="YOU SHOULD CAREFULLY READ THE FOLLOWING TERMS OF USE AGREEMENT\n\n Welcome to Stuforia Mobile Application. All use of the Application is governed by the terms and conditions contained in this Agreement, including any future revisions. Any use of the Application not in accordance with the Terms of Use is expressly prohibited.\n\n"
+            noghteh:textColor="@color/text_Black"
+            noghteh:textSize="@dimen/text_smaller"
+            android:paddingRight="4dp" />
+
+        <TextView
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Agreement as condition of use"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_small"
+            android:layout_marginBottom="@dimen/margin"
+            android:textColor="@color/text_Black"
+            android:layout_marginTop="@dimen/margin" />
+
+        <com.compunet.stuforia.JustifiedTextView
+            xmlns:noghteh="http://noghteh.ir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="3dp"
+            android:layout_marginBottom="0dp"
+            noghteh:text="You agree to these Terms of Use as a condition to using the Stuforia Application and have read and understood the Privacy Policy governing the Application.\n\n"
+            noghteh:textColor="@color/text_Black"
+            noghteh:textSize="@dimen/text_smaller"
+            android:paddingRight="4dp" />
+
+
+        <TextView
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ownership"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_small"
+            android:layout_marginBottom="@dimen/margin"
+            android:textColor="@color/text_Black"
+            android:layout_marginTop="@dimen/margin" />
+
+        <com.compunet.stuforia.JustifiedTextView
+            xmlns:noghteh="http://noghteh.ir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="3dp"
+            android:layout_marginBottom="0dp"
+            noghteh:text="All rights and title in and to the Application (including without limitation any user accounts, titles, computer code, themes, objects, concepts, artwork, methods of operation, any related documentation, applets incorporated into the Application, agent profile information, and the Application client and server software) are owned by Mr. Pugazhendhi, hereinafter called
+“The Owner”. The Application is protected by copyright and other laws of India. The Application may contain certain licensed materials, and the licensors may enforce their rights in the event of any violation of this Agreement."
+            noghteh:textColor="@color/text_Black"
+            noghteh:textSize="@dimen/text_smaller"
+            android:paddingRight="4dp" />
+
+        <TextView
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="System requirements"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_small"
+            android:layout_marginBottom="@dimen/margin"
+            android:textColor="@color/text_Black"
+            android:layout_marginTop="@dimen/margin" />
+
+        <com.compunet.stuforia.JustifiedTextView
+            xmlns:noghteh="http://noghteh.ir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="3dp"
+            android:layout_marginBottom="0dp"
+            noghteh:text="In order to use the Application you are required to have a compatible handheld device, internet access, software requirements and other minimum specifications. The client is required to do the necessary update/upgrade of the application on a regular basis for an uninterrupted and smooth use of the application."
+            noghteh:textColor="@color/text_Black"
+            noghteh:textSize="@dimen/text_smaller"
+            android:paddingRight="4dp" />
+
+
+        <TextView
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Establishing an account"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_small"
+            android:layout_marginBottom="@dimen/margin"
+            android:textColor="@color/text_Black"
+            android:layout_marginTop="@dimen/margin" />
+
+        <com.compunet.stuforia.JustifiedTextView
+            xmlns:noghteh="http://noghteh.ir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="3dp"
+            android:layout_marginBottom="0dp"
+            noghteh:text="You may establish one (1) user account (the Account) you will be required to provide The Owner with certain information. Your failure to supply accurate information to The Owner when requested, or to update that information as it changes, shall constitute a material breach of this Agreement. During the registration process, you will be required to select a username and a password that are unique to the Account (collectively referred to hereunder as Login Information). You may not share the Account or the Login Information with anyone other than as expressly set forth herein. Notwithstanding anything to the contrary herein, you acknowledge and agree that you shall have no ownership or other property interest in the Account, and you further acknowledge and agree that all rights in and to the Account are and shall forever be owned by and inure to the benefit of The Owner."
+            noghteh:textColor="@color/text_Black"
+            noghteh:textSize="@dimen/text_smaller"
+            android:paddingRight="4dp" />
+
+        <TextView
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sharing informations"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_small"
+            android:layout_marginBottom="@dimen/margin"
+            android:textColor="@color/text_Black"
+            android:layout_marginTop="@dimen/margin" />
+
+
+        <com.compunet.stuforia.JustifiedTextView
+            xmlns:noghteh="http://noghteh.ir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="3dp"
+            android:layout_marginBottom="0dp"
+            noghteh:text="You agree that for the purpose of securing admissions and for the purpose of providing other amenities requested by you, the informations provided by you will be shared with universities, experts/professionals, organisations, travel agencies, vendor, etc. You understand that the informations so shared by you will be maintained confidential by the aforesaid universities, experts/professionals, organisations, travel agencies, vendor, etc and be used only for the before stated purposes.\n"
+            noghteh:textColor="@color/text_Black"
+            noghteh:textSize="@dimen/text_smaller"
+            android:paddingRight="4dp" />
+
+
+
+        <TextView
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Limitations on your use of the application"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_small"
+            android:layout_marginBottom="@dimen/margin"
+            android:textColor="@color/text_Black"
+            android:layout_marginTop="@dimen/margin" />
+
+
+        <com.compunet.stuforia.JustifiedTextView
+            xmlns:noghteh="http://noghteh.ir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="3dp"
+            android:layout_marginBottom="0dp"
+            noghteh:text="
+A. You agree that you will not\n\n\t\t (i) modify or cause to be modified any files that are a part of the Application.\n\n\t (ii) use any third-party software that intercepts, mines, scrapes or otherwise collects information from or through the Application. You agree that you will not violate any applicable law or regulation in connection with your use of the Application.
+
+\n\n\t\t B. The Owner reserves the exclusive right to create derivative works based on the Application. You may not create derivative works based on the Application.\n"
+            noghteh:textColor="@color/text_Black"
+            noghteh:textSize="@dimen/text_smaller"
+            android:paddingRight="4dp" />
+        <TextView
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Security of login information"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_small"
+            android:layout_marginBottom="@dimen/margin"
+            android:textColor="@color/text_Black"
+            android:layout_marginTop="@dimen/margin" />
+        <com.compunet.stuforia.JustifiedTextView
+            xmlns:noghteh="http://noghteh.ir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="3dp"
+            android:layout_marginBottom="0dp"
+            noghteh:text="You are responsible for maintaining the confidentiality of your Login Information, and you will be responsible for all uses of your Login Information, whether or not authorized by you. In the event that you become aware of or reasonably suspect any breach of security, including without limitation any loss, theft, or unauthorized disclosure of your Login Information, you must immediately notify The Owner by emailing info@stuforia.com.\n"
+            noghteh:textColor="@color/text_Black"
+            noghteh:textSize="@dimen/text_smaller"
+            android:paddingRight="4dp" />
+
+        <TextView
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The owner’s absolute right to suspend, terminate and/or delete the account"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_small"
+            android:layout_marginBottom="@dimen/margin"
+            android:textColor="@color/text_Black"
+            android:layout_marginTop="@dimen/margin" />
+
+        <com.compunet.stuforia.JustifiedTextView
+            xmlns:noghteh="http://noghteh.ir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="3dp"
+            android:layout_marginBottom="0dp"
+            noghteh:text="The owner may suspend, terminate, modify or delete the account at any time with any reason or no reason, with or without notice. For purposes of explanation and not limitation, most account suspensions, terminations and/or deletions are the result of violations of this Terms of Use.\n"
+            noghteh:textColor="@color/text_Black"
+            noghteh:textSize="@dimen/text_smaller"
+            android:paddingRight="4dp" />
+
+
+        <TextView
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Changes to the terms of use agreement or the application"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_small"
+            android:layout_marginBottom="@dimen/margin"
+            android:textColor="@color/text_Black"
+            android:layout_marginTop="@dimen/margin" />
+
+        <com.compunet.stuforia.JustifiedTextView
+            xmlns:noghteh="http://noghteh.ir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="3dp"
+            android:layout_marginBottom="0dp"
+            noghteh:text="The Owner reserves the right, at its sole and absolute discretion, to change, modify, add to, supplement or delete any of the terms and conditions of this Agreement at any time, including without limitation access policies, the availability of any feature of the Application, hours of availability, content, data, software or equipment needed to access the Application, effective with or without prior notice; If any future changes to this Agreement are unacceptable to you or cause you to no longer be in compliance with this Agreement, you must terminate and immediately stop using the Application and the Account. Your continued use of the Application following any revision to this Agreement constitutes your complete and irrevocable acceptance of any and all such changes. The Owner may change, modify, suspend, or discontinue any aspect of the Application at any time. The Owner may also impose limits on certain features or restrict your access to parts or the entire Application without notice or liability.\n"
+            noghteh:textColor="@color/text_Black"
+            noghteh:textSize="@dimen/text_smaller"
+            android:paddingRight="4dp" />
+
+        <TextView
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Termination"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_small"
+            android:layout_marginBottom="@dimen/margin"
+            android:textColor="@color/text_Black"
+            android:layout_marginTop="@dimen/margin" />
+
+        <com.compunet.stuforia.JustifiedTextView
+            xmlns:noghteh="http://noghteh.ir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="3dp"
+            android:layout_marginBottom="0dp"
+            noghteh:text="This Agreement is effective until terminated. You may terminate this Agreement by terminating the Account. In the event that you terminate or breach this Agreement, you will forfeit your right to any and all payments you may have made. You agree and acknowledge that you are not entitled to any refund for any amounts which were pre-paid on behalf of the Account prior to any termination of this Agreement. The Owner may terminate this Agreement with or without notice by terminating your Account.\n"
+            noghteh:textColor="@color/text_Black"
+            noghteh:textSize="@dimen/text_smaller"
+            android:paddingRight="4dp" />
+
+
+        <TextView
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Assured admit disclaimer"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_small"
+            android:layout_marginBottom="@dimen/margin"
+            android:textColor="@color/text_Black"
+            android:layout_marginTop="@dimen/margin" />
+
+        <com.compunet.stuforia.JustifiedTextView
+            xmlns:noghteh="http://noghteh.ir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="3dp"
+            android:layout_marginBottom="0dp"
+            noghteh:text="Admissions depends primarily on the correctness of the data provided by the applicant and hence the application and the owner does not guarantee assured admit to applicants who\n\n\t
+A. Do not comply with the deadlines, credentials of the proposed University.
+\n\n\tB. Do not provide mandatory informations and documents required for Securing, Admission, Verification, Authentication.\n\n\t
+C. Do not provide correct and accurate data as required.\n"
+            noghteh:textColor="@color/text_Black"
+            noghteh:textSize="@dimen/text_smaller"
+            android:paddingRight="4dp" />
+
+        <TextView
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Warranty disclaimer"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_small"
+            android:layout_marginBottom="@dimen/margin"
+            android:textColor="@color/text_Black"
+            android:layout_marginTop="@dimen/margin" />
+
+
+        <com.compunet.stuforia.JustifiedTextView
+            xmlns:noghteh="http://noghteh.ir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="3dp"
+            android:layout_marginBottom="0dp"
+            noghteh:text="The application is provided as is and the owner does not warrant. That the application will be uninterrupted or error-free, that defects will be corrected, or that the application are free of viruses or other harmful components. The owner expressly disclaims all warranties, express or implied, including without limitation the warranties of merchantability or fitness for any particular purpose or use, and non-infringement.\n"
+            noghteh:textColor="@color/text_Black"
+            noghteh:textSize="@dimen/text_smaller"
+            android:paddingRight="4dp" />
+
+
+
+        <TextView
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Limitation of liability"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_small"
+            android:layout_marginBottom="@dimen/margin"
+            android:textColor="@color/text_Black"
+            android:layout_marginTop="@dimen/margin" />
+
+
+        <com.compunet.stuforia.JustifiedTextView
+            xmlns:noghteh="http://noghteh.ir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="3dp"
+            android:layout_marginBottom="0dp"
+            noghteh:text="The owner shall not be liable in any way for damage or loss of any kind resulting from\n\n (a) The use of or inability to use the application including without limitation loss of goodwill, work
+stoppage, computer failure or malfunction.\n\n (b) The loss or damage to user data, accounts, statistics, user profile information stored by the owner.\n\n(c) Errors.\n\n or \n\n(d) Interruptions of applicationincluding without limitation isp disruptions, software or hardware failures or any other event which may result in a loss of data or disruption of the application. In no event will the owner be liable to you or anyone else for any direct, indirect, incidental, special, exemplary or consequential damages.\n"
+            noghteh:textColor="@color/text_Black"
+            noghteh:textSize="@dimen/text_smaller"
+            android:paddingRight="4dp" />
+        <TextView
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dispute resolution and governing law"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_small"
+            android:layout_marginBottom="@dimen/margin"
+            android:textColor="@color/text_Black"
+            android:layout_marginTop="@dimen/margin" />
+
+
+        <com.compunet.stuforia.JustifiedTextView
+            xmlns:noghteh="http://noghteh.ir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="3dp"
+            android:layout_marginBottom="0dp"
+            noghteh:text="A. Informal Negotiations. \n\n\t To expedite resolution and control the cost of any dispute,
+
+controversy or claim related to this Agreement (Dispute), you and The Owner agree to first
+
+attempt to negotiate any Dispute (except those Disputes expressly provided below)
+
+informally for at least thirty (30) days before initiating any arbitration or court proceeding.
+
+Such informal negotiations commence upon written notice from one person to the other. The
+
+Owner will send its notice to your billing address and email you a copy to the email address
+
+you have provided to us. You will send your notice to info@stuforia.com.
+
+\n\nB. Binding Arbitration. \n\nIf you and The Owner are unable to resolve a Dispute through
+
+informal negotiations, either you or The Owner may elect to have the Dispute (except those
+
+Disputes expressly excluded below) finally and exclusively resolved by binding arbitration,
+
+by an Arbitrator nominated by the Owner under the provisions of the Indian Arbitration and
+
+Conciliation Act, 1999. Venue of Arbitration shall be Chennai and language of Arbitration
+
+shall be English.\n\n
+
+C. Governing Law.\n\n\t This Agreement shall be governed by, and will be construed
+
+under, laws of India.\n"
+            noghteh:textColor="@color/text_Black"
+            noghteh:textSize="@dimen/text_smaller"
+            android:paddingRight="4dp" />
+        <TextView
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Miscellaneous"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_small"
+            android:layout_marginBottom="@dimen/margin"
+            android:textColor="@color/text_Black"
+            android:layout_marginTop="@dimen/margin" />
+
+
+        <com.compunet.stuforia.JustifiedTextView
+            xmlns:noghteh="http://noghteh.ir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="3dp"
+            android:layout_marginBottom="0dp"
+            noghteh:text="If any provision of this Agreement shall be unlawful, void, or for any reason unenforceable,
+
+then that provision shall be deemed severable from this Agreement and shall not affect the
+
+validity and enforceability of any remaining provisions. This Terms of Use Agreement is the
+
+complete and exclusive statement of the agreement between you and The Owner concerning
+
+the Application, and this Agreement supersedes any prior or contemporaneous agreement,
+
+either oral or written, and any other communications with regard thereto between you and
+
+The Owner; This Agreement may only be modified as set forth herein.
+
+\n"
+            noghteh:textColor="@color/text_Black"
+            noghteh:textSize="@dimen/text_smaller"
+            android:paddingRight="4dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin"
+            android:textSize="@dimen/margin"/>
+        <com.compunet.stuforia.JustifiedTextView
+            xmlns:noghteh="http://noghteh.ir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="3dp"
+            android:layout_marginBottom="0dp"
+            noghteh:text="I HEREBY ACKNOWLEDGE THAT I HAVE READ AND UNDERSTOOD THE
+
+FOREGOING TERMS OF USE AGREEMENT AND AGREE THAT MY USE OF
+
+THE APPLICATION IS AN ACKNOWLEDGMENT OF MY AGREEMENT TO BE
+
+BOUND BY THE TERMS AND CONDITIONS OF THIS TERMS OF USE
+
+AGREEMENT.\n"
+            noghteh:textColor="@color/text_Black"
+            noghteh:textSize="@dimen/text_smaller"
+            android:paddingRight="4dp" />
+    </LinearLayout>
+
+</ScrollView>

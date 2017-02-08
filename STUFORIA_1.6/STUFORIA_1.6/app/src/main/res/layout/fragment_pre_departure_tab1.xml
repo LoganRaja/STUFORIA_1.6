@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding">
+
+    <com.compunet.stuforia.JustifiedTextView
+        xmlns:noghteh="http://noghteh.ir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="3dp"
+        android:paddingRight="4dp"
+        android:layout_marginBottom="0dp"
+        noghteh:textSize="@dimen/text_smaller"
+        noghteh:text="This section will have the information and process to apply for educational loan offered by various banks to help in completing your education. You would also find offers on the same for patrons of Stuforia."
+        noghteh:textColor="#515151"
+        />
+
+
+
+
+</RelativeLayout>

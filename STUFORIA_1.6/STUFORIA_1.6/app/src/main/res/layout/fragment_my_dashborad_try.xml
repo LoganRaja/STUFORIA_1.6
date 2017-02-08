@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:id="@+id/l1"
+        android:orientation="vertical"
+        android:background="@drawable/bgk">
+
+
+        <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:orientation="vertical"
+           android:id="@+id/l2"
+           android:layout_weight="1.5">
+
+         </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.5"
+        android:id="@+id/l3"
+        android:orientation="horizontal"
+        >
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/dummy1"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/dashboard_1r"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/dashboard_1r1"
+                    >
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/dashboard_1r2"
+                    android:gravity="center"
+                    android:layout_below="@+id/dashboard_1r1"
+                    android:background="@color/white"
+                    >
+
+                    <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_universities_red"
+                    android:id="@+id/dashboard_1i1"
+                    android:layout_gravity="center"
+                    />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Shortlisted\nUniversities"
+                        android:id="@+id/dashboard_1t1"
+                        android:textSize="@dimen/text_smaller"
+                        android:textColor="@color/red"
+                        android:textStyle="bold"
+                        android:layout_below="@+id/dashboard_1i1"
+                        />
+
+                </RelativeLayout>
+
+                <!--<ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/dashboard_1r2"
+                    android:id="@+id/dashboard_1i1"
+                    android:src="@drawable/loading_white"
+                    android:layout_marginBottom="-50dp"
+                    android:adjustViewBounds="true"
+                    />-->
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/dummy2"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/dashboard_2r"
+                >
+
+                <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/dashboard_2r1"
+                    >
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/dashboard_2r2"
+                    android:layout_below="@+id/dashboard_2r1"
+                    android:background="@color/white"
+                    >
+
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/dashboard_2r2"
+                    android:id="@+id/dashboard_2i1"
+                    android:src="@drawable/loading_white"
+                    android:adjustViewBounds="true"
+                    />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/dummy3"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/dashboard_3r"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/dashboard_3r1"
+                    >
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:id="@+id/dashboard_3r2"
+                    android:layout_below="@+id/dashboard_3r1"
+                    android:background="@color/white"
+                    >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_scores_h"
+                        android:id="@+id/dashboard_3i1"
+                        android:layout_gravity="center"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="My\nScores"
+                        android:id="@+id/dashboard_3t1"
+                        android:textColor="@color/red"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/text_smaller"
+                        android:layout_below="@+id/dashboard_3i1"
+                        />
+
+                </RelativeLayout>
+
+                <!--<ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/dashboard_3r2"
+                    android:id="@+id/dashboard_3i1"
+                    android:src="@drawable/loading_white"
+                    android:layout_marginBottom="-50dp"
+                    android:adjustViewBounds="true"
+                    />-->
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:id="@+id/l8"
+        android:orientation="vertical"
+        >
+
+        <com.compunet.stuforia.SlidingTabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="10dp"
+            android:background="#2d5da7"/>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            >
+        </android.support.v4.view.ViewPager>
+
+    </LinearLayout>
+
+</LinearLayout>

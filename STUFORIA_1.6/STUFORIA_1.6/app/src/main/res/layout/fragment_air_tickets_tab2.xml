@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="@dimen/padding"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.compunet.stuforia.JustifiedTextView
+        xmlns:noghteh="http://noghteh.ir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="3dp"
+        android:paddingRight="4dp"
+        android:layout_marginBottom="0dp"
+        noghteh:textSize="@dimen/text_smaller"
+        noghteh:text="Nonstop DC-3s carried full-fare passengers ($18.95 one way) and Boeings flew a couple of two-stop flights each way for $13.90. In addition economy passengers pay for airport check-in, checked bags, pillows, blankets and headphones."
+        noghteh:textColor="#515151"
+        />
+
+</LinearLayout>

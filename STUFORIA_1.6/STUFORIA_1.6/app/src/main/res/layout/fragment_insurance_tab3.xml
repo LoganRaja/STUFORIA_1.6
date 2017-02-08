@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding">
+
+
+    <com.compunet.stuforia.JustifiedTextView
+        xmlns:noghteh="http://noghteh.ir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="3dp"
+        android:paddingRight="4dp"
+        android:layout_marginBottom="0dp"
+        noghteh:textSize="@dimen/text_smaller"
+        noghteh:text="General insurance or non-life insurance policies, including automobile and homeowners policies, provide payments depending on the loss from a particular financial event. General insurance is typically defined as any insurance that is not determined to be life insurance.\n\nFrom the various choices that are available to you we help you in ensuring that you get your insurance in ease. "
+        noghteh:textColor="#515151"
+
+        />
+
+</LinearLayout>

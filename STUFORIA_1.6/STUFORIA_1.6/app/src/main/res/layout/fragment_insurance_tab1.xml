@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/margin">
+
+
+    <com.compunet.stuforia.JustifiedTextView
+        xmlns:noghteh="http://noghteh.ir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="3dp"
+        android:paddingRight="4dp"
+        android:layout_marginBottom="0dp"
+        noghteh:textSize="@dimen/text_smaller"
+        noghteh:text="This section covers the overseas mediclaim policy which is a package covering travel emergencies, when someone is travelling to abroad.\n\nIt is available for three category of travellers\n\n1) Business and holiday\n\n2) Employment and study\n\n3) Corporate frequent traveller\n"
+        noghteh:textColor="#515151"
+        />
+
+
+</LinearLayout>

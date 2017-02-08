@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="@dimen/padding"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.compunet.stuforia.JustifiedTextView
+        xmlns:noghteh="http://noghteh.ir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="3dp"
+        android:paddingRight="4dp"
+        android:layout_marginBottom="0dp"
+        noghteh:textSize="@dimen/text_smaller"
+        noghteh:text="Non-stop flight is a commercially operated airliner without any scheduled intermediate stop of any kind and a route length using the higher end of the airliners range. These flights usually follow a great circle route, often passing over polar regions. It is one of the longest scheduled flights. Economy class seats usually recline and have a fold-down table."
+        noghteh:textColor="#515151"
+        />
+
+</LinearLayout>

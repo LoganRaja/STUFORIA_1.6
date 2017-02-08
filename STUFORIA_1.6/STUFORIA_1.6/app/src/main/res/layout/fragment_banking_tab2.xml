@@ -1,0 +1,294 @@
+
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android" >
+
+                <TextView
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:textColor="@color/text_Black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin"
+                    android:text="Proof of residence"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/text_small" />
+
+                <com.compunet.stuforia.JustifiedTextView
+                    xmlns:noghteh="http://noghteh.ir"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="3dp"
+                    android:paddingRight="4dp"
+                    android:layout_marginBottom="0dp"
+                    noghteh:textSize="@dimen/text_smaller"
+                    noghteh:text="Photocopies of ration card or voters identity card or passport or electricity or telephone bill or any such document acceptable to the bank."
+                    noghteh:textColor="@color/text_Black"
+                    />
+                <TextView
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Academic record"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/text_small"
+                    android:layout_marginBottom="@dimen/margin"
+                    android:textColor="@color/text_Black"
+                    android:layout_marginTop="@dimen/margin" />
+                <com.compunet.stuforia.JustifiedTextView
+                    xmlns:noghteh="http://noghteh.ir"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="3dp"
+                    android:layout_marginBottom="0dp"
+                    noghteh:text="Copy of the 10th std / 12th std mark list, for UG. Degree mark list/provisional certificate for PG."
+                    noghteh:textColor="@color/text_Black"
+                    noghteh:textSize="@dimen/text_smaller"
+                    android:paddingRight="4dp" />
+
+             <TextView
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                 android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Date of birth/age  and  Community (for statistical purpose only)"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/text_small"
+                 android:layout_marginBottom="@dimen/margin"
+                 android:textColor="@color/text_Black"
+                 android:layout_marginTop="@dimen/margin" />
+
+                <com.compunet.stuforia.JustifiedTextView
+                    xmlns:noghteh="http://noghteh.ir"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="3dp"
+                    android:layout_marginBottom="0dp"
+                    noghteh:text="SSLC/TC/Mark list,community certificate besides passport."
+                    noghteh:textColor="@color/text_Black"
+                    noghteh:textSize="@dimen/text_smaller"
+                    android:paddingRight="4dp" />
+
+
+                <TextView
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Family income"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/text_small"
+                    android:layout_marginBottom="@dimen/margin"
+                    android:textColor="@color/text_Black"
+                    android:layout_marginTop="@dimen/margin" />
+
+                <com.compunet.stuforia.JustifiedTextView
+                    xmlns:noghteh="http://noghteh.ir"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="3dp"
+                    android:layout_marginBottom="0dp"
+                    noghteh:text="Salary certificate / Pension certificate / Auditor's certificate in case of business category / IT return filed / any other proof for the income."
+                    noghteh:textColor="@color/text_Black"
+                    noghteh:textSize="@dimen/text_smaller"
+                    android:paddingRight="4dp" />
+
+                <TextView
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Admission"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/text_small"
+                    android:layout_marginBottom="@dimen/margin"
+                    android:textColor="@color/text_Black"
+                    android:layout_marginTop="@dimen/margin" />
+
+                <com.compunet.stuforia.JustifiedTextView
+                    xmlns:noghteh="http://noghteh.ir"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="3dp"
+                    android:layout_marginBottom="0dp"
+                    noghteh:text="Certificate / I-20 from the College/University."
+                    noghteh:textColor="@color/text_Black"
+                    noghteh:textSize="@dimen/text_smaller"
+                    android:paddingRight="4dp" />
+
+
+                <TextView
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Fee structure"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/text_small"
+                    android:layout_marginBottom="@dimen/margin"
+                    android:textColor="@color/text_Black"
+                    android:layout_marginTop="@dimen/margin" />
+
+                <com.compunet.stuforia.JustifiedTextView
+                    xmlns:noghteh="http://noghteh.ir"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="3dp"
+                    android:layout_marginBottom="0dp"
+                    noghteh:text="Certificate / I-20 from the College/University."
+                    noghteh:textColor="@color/text_Black"
+                    noghteh:textSize="@dimen/text_smaller"
+                    android:paddingRight="4dp" />
+
+                <TextView
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Passport / VISA"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/text_small"
+                    android:layout_marginBottom="@dimen/margin"
+                    android:textColor="@color/text_Black"
+                    android:layout_marginTop="@dimen/margin" />
+
+
+                <com.compunet.stuforia.JustifiedTextView
+                    xmlns:noghteh="http://noghteh.ir"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="3dp"
+                    android:layout_marginBottom="0dp"
+                    noghteh:text="Copies to be enclosed."
+                    noghteh:textColor="@color/text_Black"
+                    noghteh:textSize="@dimen/text_smaller"
+                    android:paddingRight="4dp" />
+
+
+
+                <TextView
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Guarantee / Co-obligation"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/text_small"
+                    android:layout_marginBottom="@dimen/margin"
+                    android:textColor="@color/text_Black"
+                    android:layout_marginTop="@dimen/margin" />
+
+
+                <com.compunet.stuforia.JustifiedTextView
+                    xmlns:noghteh="http://noghteh.ir"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="3dp"
+                    android:layout_marginBottom="0dp"
+                    noghteh:text="Parent's / Guardian's Co-obligation to be furnished."
+                    noghteh:textColor="@color/text_Black"
+                    noghteh:textSize="@dimen/text_smaller"
+                    android:paddingRight="4dp" />
+
+
+                <TextView
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Collateral, wherever required"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/text_small"
+                    android:layout_marginBottom="@dimen/margin"
+                    android:textColor="@color/text_Black"
+                    android:layout_marginTop="@dimen/margin" />
+
+                <com.compunet.stuforia.JustifiedTextView
+                    xmlns:noghteh="http://noghteh.ir"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="3dp"
+                    android:layout_marginBottom="0dp"
+                    noghteh:text="LIC policy (surrender value of which should be not less than the loan amount at the time of availing the loan) /Share certificates/Units of UTI etc., Valuation certificate from bank's approved panel valuer and legal opinion from bank's panel advocate in case of land/buildings."
+                    noghteh:textColor="@color/text_Black"
+                    noghteh:textSize="@dimen/text_smaller"
+                    android:paddingRight="4dp" />
+
+                <TextView
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Margin (Above Rs.4.00 lakhs) for studies abroad: 15%"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/text_small"
+                    android:layout_marginBottom="@dimen/margin"
+                    android:textColor="@color/text_Black"
+                    android:layout_marginTop="@dimen/margin" />
+
+                <com.compunet.stuforia.JustifiedTextView
+                    xmlns:noghteh="http://noghteh.ir"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="3dp"
+                    android:layout_marginBottom="0dp"
+                    noghteh:text="Details regarding source of funds for meeting the margin furnished alongwith documentary evidence."
+                    noghteh:textColor="@color/text_Black"
+                    noghteh:textSize="@dimen/text_smaller"
+                    android:paddingRight="4dp" />
+
+                <TextView
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Declaration/Affidavit stating that no educational loan is availed from any other bank by the applicant and his parent"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/text_small"
+                    android:layout_marginBottom="@dimen/margin"
+                    android:textColor="@color/text_Black"
+                    android:layout_marginTop="@dimen/margin" />
+                <com.compunet.stuforia.JustifiedTextView
+                    xmlns:noghteh="http://noghteh.ir"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="3dp"
+                    android:layout_marginBottom="0dp"
+                    noghteh:text="To be submitted."
+                    noghteh:textColor="#515151"
+                    noghteh:textSize="@dimen/text_smaller"
+                    android:paddingRight="4dp" />
+
+                <TextView
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Documents to be enclosed"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/text_small"
+                    android:layout_marginBottom="@dimen/margin"
+                    android:textColor="@color/text_Black"
+                    android:layout_marginTop="@dimen/margin" />
+
+                <com.compunet.stuforia.JustifiedTextView
+                    xmlns:noghteh="http://noghteh.ir"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="3dp"
+                    android:layout_marginBottom="0dp"
+                    noghteh:text="Address and location of the student / parent / guardian / guarantor."
+                    noghteh:textColor="@color/text_Black"
+                    noghteh:textSize="@dimen/text_smaller"
+                    android:paddingRight="4dp" />
+
+    </LinearLayout>
+
+</ScrollView>

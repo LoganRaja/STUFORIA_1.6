@@ -1,0 +1,150 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <!-- <LinearLayout
+        android:id="@+id/container_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar" />
+    </LinearLayout>-->
+    <!-- Framelayout to display Fragments -->
+    <FrameLayout
+        android:id="@+id/frame_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+    </FrameLayout>
+
+    <!-- Listview to display slider menu -->
+    <!--<ListView
+        android:id="@+id/list_slidermenu"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:divider="@null"
+        android:background="#ffe41f3a"
+       />-->
+    <!-- The navigation drawer -->
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/white"
+        android:id="@+id/skip"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linear"
+            android:orientation="vertical"
+            >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/linear2"
+            android:padding="@dimen/margin"
+            android:background="@color/red"
+            >
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.25"
+                android:id="@+id/dp"
+                />
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.75"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/logo"
+               />
+        </LinearLayout>
+
+            <ExpandableListView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:groupIndicator="@drawable/group_indicator"
+                android:id="@+id/lvExp"
+                android:dividerHeight="0dp"
+                android:divider="@null"
+                android:indicatorRight="@dimen/text_small"
+              >
+            </ExpandableListView>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+           <!-- <ListView
+                android:id="@+id/list_slidermenu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/margin"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="@dimen/margin" />-->
+                   <com.compunet.stuforia.ExpandableHeightListView
+                        android:id="@+id/list_slidermenu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:cacheColorHint="#00000000"
+                       android:dividerHeight="0dp"
+                       android:divider="@null"
+                        android:fadingEdge="none"
+                        android:focusable="false"
+                       android:layout_marginTop="@dimen/margin"
+                        android:scrollbars="none"/>
+                    </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin"
+                android:background="@drawable/topborder"
+                android:layout_marginBottom="@dimen/margin"
+                android:layout_marginTop="@dimen/margin"></LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <com.compunet.stuforia.ExpandableHeightListView
+                        android:id="@+id/list_slidermenu1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:dividerHeight="0dp"
+                        android:divider="@null"
+                        android:cacheColorHint="#00000000"
+                        android:fadingEdge="none"
+                        android:focusable="false"
+                        android:scrollbars="none"/>
+           <!-- <ListView
+                android:id="@+id/list_slidermenu1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="@dimen/padding"
+                />-->
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.v4.widget.DrawerLayout>

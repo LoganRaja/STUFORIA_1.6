@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:coverflow="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/padding_small"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/custom_border"
+            android:id="@+id/general_post"
+            android:visibility="gone">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/padding">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.5"
+                        android:gravity="center_vertical">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:src="@drawable/profile_pic2"
+                            android:visibility="visible"
+                            android:id="@+id/profile_pic"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="8"
+                        android:id="@+id/profile_name"
+                        android:text="sdfasdf\"
+                        android:visibility="visible"
+                        android:textColor="@color/gray"
+                        android:padding="@dimen/padding_small"
+                        android:textSize="@dimen/text_small"
+                        android:gravity="start"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".7"
+                        android:text="2h"
+                        android:paddingTop="@dimen/padding_small"
+                        android:textColor="@color/gray"
+                        android:visibility="visible"
+                        android:id="@+id/posted_time"
+                        android:textSize="@dimen/text_small"
+                        android:gravity="start"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="10.2"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.5"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="8"
+                        android:visibility="visible"
+                        android:padding="@dimen/padding_small"
+                        android:text="You have to check out these amazing vacation
+spots in this article. We should really think about visiting then soon!"
+                        android:textSize="@dimen/text_small"
+                        android:gravity="start"
+                        android:id="@+id/posted_description"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".7"/>
+
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:src="@drawable/post1"
+                    android:scaleType="fitXY"
+                    android:id="@+id/post"
+                    android:visibility="gone"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_tiny"
+                    android:text="BY JENNA BROCKHEIMER DEC 5,2015"
+                    android:padding="@dimen/padding_small"
+                    android:visibility="visible"
+
+                    android:textColor="@color/gray"
+                    android:id="@+id/post_des_old"
+                    android:gravity="start"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/light_gray"
+                android:padding="@dimen/padding">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_tiny"
+                    android:textColor="@color/gray"
+                    android:text="BY JENNA BROCKHEIMER DEC 5,2015"
+                    android:padding="@dimen/padding_small"
+                    android:id="@+id/comment_total_count"
+                    android:visibility="visible"
+                    android:gravity="start"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible"
+                    android:id="@+id/comment1_layout"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.5"
+                            android:gravity="center_vertical">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:src="@drawable/profile_pic3"
+                                android:visibility="visible"
+                                android:id="@+id/comment1_profile_pic"/>
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="8"
+                            android:text="sdfasdf\"
+                            android:textSize="@dimen/text_small"
+                            android:visibility="visible"
+                            android:textColor="@color/gray"
+                            android:gravity="start"
+                            android:padding="@dimen/padding_small"
+                            android:id="@+id/comment1_profile_name"
+                            />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".7"
+                            android:text="2h"
+                            android:visibility="visible"
+                            android:textSize="@dimen/text_tiny"
+                            android:textColor="@color/gray"
+                            android:gravity="start"
+                            android:paddingTop="@dimen/padding_small"
+                            android:id="@+id/comment1_time"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="10.2"
+                        android:gravity="center">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.5"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="8"
+                            android:text="Looks awesome. Let's talk about a convenient time to take vacation!"
+                            android:textSize="@dimen/text_small"
+                            android:gravity="start"
+                            android:padding="@dimen/padding_small"
+                            android:visibility="visible"
+                            android:id="@+id/comment1_description"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".7"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/gray"
+                        android:id="@+id/comment1_border"
+                        android:layout_marginBottom="@dimen/margin"
+                        android:visibility="visible"
+                        android:orientation="horizontal"></LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible"
+                    android:id="@+id/comment2_layout"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.5"
+                            android:gravity="center_vertical">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:src="@drawable/profile_pic3"
+                                android:visibility="visible"
+                                android:id="@+id/comment2_profile_pic"/>
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="8"
+                            android:text="sdfasdf\"
+                            android:padding="@dimen/padding_small"
+                            android:textSize="@dimen/text_small"
+                            android:textColor="@color/gray"
+                            android:visibility="visible"
+                            android:gravity="start"
+                            android:id="@+id/comment2_profile_name"
+                            />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".7"
+                            android:text="2h"
+                            android:textSize="@dimen/text_tiny"
+                            android:gravity="start"
+                            android:textColor="@color/gray"
+                            android:paddingTop="@dimen/padding_small"
+                            android:visibility="visible"
+                            android:id="@+id/comment2_time"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="10.2"
+                        android:gravity="center">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.5"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="8"
+                            android:text="Looks awesome. Let's talk about a convenient time to take vacation!"
+                            android:textSize="@dimen/text_small"
+                            android:gravity="start"
+                            android:padding="@dimen/padding_small"
+                            android:visibility="visible"
+                            android:id="@+id/comment2_description"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".7"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/gray"
+                        android:visibility="visible"
+                        android:id="@+id/comment2_border"
+                        android:layout_marginBottom="@dimen/margin"
+                        android:orientation="horizontal"></LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_weight="3"
+                        android:id="@+id/like_layout">
+
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="3"
+                            android:text="Like"
+                            android:textColor="@color/gray"
+                            android:textAllCaps="false"
+                            android:drawableLeft="@drawable/like"
+                            android:paddingLeft="@dimen/margin"
+                            android:background="@null"
+                            android:id="@+id/like_button"/>
+
+                        <!--<ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:src="@drawable/like"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:text=" 3 Like"/>-->
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_weight="3">
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="3"
+                            android:text="123 Share"
+                            android:textAllCaps="false"
+                            android:textColor="@color/gray"
+                            android:drawableLeft="@drawable/share"
+                            android:paddingLeft="@dimen/margin"
+                            android:background="@null"
+                            android:id="@+id/share_button"/>
+                        <!--<ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/share"
+                            android:layout_weight="1"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:text="1 Share"/>-->
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_weight="3">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Comment"
+                            android:gravity="end|center_vertical"
+                            android:textColor="@color/skyblue"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:id="@+id/check"
+            android:padding="@dimen/padding"
+            android:orientation="vertical"
+            android:layout_below="@+id/general_post">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_tiny"
+                android:text="PEOPLE YOU MAY KNOW"
+                android:padding="@dimen/padding_small"
+                android:visibility="visible"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="10"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="2dp"
+                    android:gravity="center"
+                    android:layout_weight="3"
+                    android:background="@color/light_grey"
+                    />
+            </LinearLayout>
+
+            <csocket.example.com.newsfeed.CoverFlow
+                android:id="@+id/cf_coverflow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <it.moondroid.coverflow.components.ui.containers.FeatureCoverFlow
+                android:id="@+id/coverflow"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                coverflow:coverHeight="180dp"
+                coverflow:coverWidth="120dp"
+                coverflow:maxScaleFactor="1.5"
+                coverflow:reflectionGap="0px"
+                coverflow:rotationThreshold="0.1"
+                coverflow:scalingThreshold="0.1"
+                coverflow:spacing="0.6" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/custom_border"
+            android:id="@+id/post_poll"
+            android:layout_below="@+id/check"
+            android:visibility="visible">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.5"
+                        android:gravity="center_vertical">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:src="@drawable/profile_pic2"
+                            />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="8"
+                        android:id="@+id/profile_name2"
+                        android:text="sdfasdf\"
+                        android:textColor="@color/gray"
+                        android:textSize="@dimen/text_small"
+                        android:gravity="start"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".7"
+                        android:text="2h"
+                        android:textSize="@dimen/text_small"
+                        android:gravity="start"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="10.2"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.5"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="8"
+                        android:paddingTop="@dimen/padding_small"
+                        android:paddingBottom="@dimen/padding_small"
+                        android:text="Which JavaScript framework do you prefer?"
+                        android:textSize="@dimen/text_small"
+                        android:gravity="start"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".7"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="10.2"
+                    android:gravity="center"
+                    android:id="@+id/answer_layout">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/padding_small"
+                        android:layout_weight="8">
+
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:text="AngularJS"
+                            android:id="@+id/answer1"
+                            android:textColor="@color/white"
+                            android:textAllCaps="false"
+                            android:background="@drawable/rectangle_border_light_blue"
+                            android:layout_marginRight="@dimen/margin"/>
+
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:text="React"
+                            android:id="@+id/answer2"
+                            android:textColor="@color/white"
+                            android:textAllCaps="false"
+                            android:background="@drawable/rectangle_border_light_blue"/>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/progress_layout"
+                    android:visibility="visible">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="10.2"
+                        android:gravity="center">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:padding="@dimen/padding_small"
+                            android:layout_weight="8">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="2"
+                                android:text="AngularJS"/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="2"
+                                android:text="38%"
+                                android:gravity="end"/>
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="10.2"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        android:layout_marginBottom="@dimen/margin">
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="8"
+                            >
+                            <ProgressBar
+                                android:id="@+id/progressbar1"
+                                style="?android:attr/progressBarStyleHorizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:indeterminate="false"
+                                android:progressDrawable="@drawable/custom_progressbar"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="17"
+                                android:id="@+id/txt_secondsleft"
+                                android:layout_alignRight="@+id/progressbar1"
+                                android:layout_alignLeft="@+id/progressbar1"
+                                android:gravity="center"
+                                android:layout_alignBottom="@+id/progressbar1"
+                                android:layout_alignTop="@+id/progressbar1"
+                                />
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="10.2"
+                        android:gravity="center">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:padding="@dimen/padding_small"
+                            android:layout_weight="8">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="2"
+                                android:text="React"
+                                android:textColor="@color/skyblue"/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="2"
+                                android:text="62%"
+                                android:gravity="end"/>
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="10.2"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        android:layout_marginBottom="@dimen/margin">
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="8"
+                            >
+                            <ProgressBar
+                                android:id="@+id/progressbar2"
+                                style="?android:attr/progressBarStyleHorizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:indeterminate="false"
+                                android:progressDrawable="@drawable/custom_progressbar2"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="31"
+                                android:id="@+id/txt_secondsleft1"
+                                android:layout_alignRight="@+id/progressbar2"
+                                android:layout_alignLeft="@+id/progressbar2"
+                                android:gravity="center"
+                                android:textColor="@color/white"
+                                android:layout_alignBottom="@+id/progressbar2"
+                                android:layout_alignTop="@+id/progressbar2"
+                                />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/light_gray"
+                android:padding="@dimen/padding_small"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_tiny"
+                    android:text="SHOW PREVIOUS VOTES (38)"
+                    android:padding="@dimen/padding_small"
+                    android:visibility="visible"
+                    android:gravity="start"
+                    android:layout_marginBottom="@dimen/margin"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="@dimen/margin">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.5"
+                            android:gravity="center_vertical">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/profile_pic3"
+                                />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="8"
+                            android:text="sdfasdf\"
+                            android:id="@+id/comment_name2_1"
+                            android:textSize="@dimen/text_small"
+                            android:textColor="@color/gray"
+                            android:gravity="start"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".7"
+                            android:text="1h"
+                            android:textSize="@dimen/text_small"
+                            android:gravity="start"/>
+                    </LinearLayout>
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:visibility="visible">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.5"
+                                android:gravity="center_vertical">
+
+                                <de.hdodenhof.circleimageview.CircleImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/profile_pic3"/>
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="8"
+                                android:text="sdfasdf\"
+                                android:id="@+id/comment_name2_2"
+                                android:textSize="@dimen/text_small"
+                                android:textColor="@color/gray"
+                                android:gravity="start"/>
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight=".7"
+                                android:text="2m"
+                                android:textSize="@dimen/text_small"
+                                android:gravity="start"/>
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

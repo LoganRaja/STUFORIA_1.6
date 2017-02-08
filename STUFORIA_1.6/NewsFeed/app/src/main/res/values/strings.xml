@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="icon_heart">&#xf004;</string>
+
+    <string name="app_name">News Feed</string>
+
+</resources>

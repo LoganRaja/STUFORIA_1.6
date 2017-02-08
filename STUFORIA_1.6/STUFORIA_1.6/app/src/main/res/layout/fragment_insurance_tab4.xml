@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding">
+
+
+    <com.compunet.stuforia.JustifiedTextView
+        xmlns:noghteh="http://noghteh.ir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="3dp"
+        android:paddingRight="4dp"
+        android:layout_marginBottom="0dp"
+        noghteh:textSize="@dimen/text_smaller"
+        noghteh:text="We do our best to ensure that your checked bag travels on the same flight with you. If your bag does not arrive on your flight, our goal is to return your bag to you within 24 hours. The measures may take longer for international itineraries due to flight frequency or Customs and Immigration procedures."
+        noghteh:textColor="#515151"
+        />
+
+</LinearLayout>

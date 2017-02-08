@@ -1,0 +1,101 @@
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/pauselayout">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.25"
+        class="com.google.android.gms.maps.SupportMapFragment"/>
+
+        <ToggleButton
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="top"
+            android:layout_margin="@dimen/margin"
+            android:textOff="Add"
+            android:textOn="Remove"
+            android:textSize="@dimen/text_small"
+            android:gravity="center"
+            android:elevation="10dp"
+            android:id="@+id/addremove"
+            android:layout_weight="0.75"/>
+
+
+            <LinearLayout
+                android:id="@+id/r1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="6"
+               android:orientation="vertical"
+               >
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fillViewport="true">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                   >
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:id="@+id/imageView"
+                        android:layout_marginBottom="@dimen/margin"/>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="7"
+                        android:orientation="vertical"
+                        android:paddingLeft="@dimen/padding"
+                       >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/text_small"
+                            android:textStyle="bold"
+                            android:id="@+id/textView"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/textView2"
+                            android:textSize="@dimen/text_tiny"
+                            android:paddingBottom="@dimen/padding"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <ExpandableListView
+                    android:layout_width="match_parent"
+                    android:id="@+id/lvExp1"
+                    android:layout_height="wrap_content"
+                    android:divider="@null"
+                    android:dividerHeight="0dp"
+                    android:cacheColorHint="#00000000"
+                    android:groupIndicator="@drawable/group_indicator"
+                    android:indicatorRight="@dimen/text_small"
+                    android:scrollbarSize="@dimen/text_small"
+                    android:scrollbarThumbVertical="@color/white"
+                    android:fastScrollAlwaysVisible="true"
+                    android:fadeScrollbars="false"
+                    />
+
+
+            </LinearLayout>
+           </ScrollView>
+            </LinearLayout>
+</LinearLayout>
+

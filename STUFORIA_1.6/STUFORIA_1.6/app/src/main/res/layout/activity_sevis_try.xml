@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/padding"
+    >
+
+    <com.compunet.stuforia.JustifiedTextView
+        xmlns:noghteh="http://noghteh.ir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="3dp"
+        android:paddingRight="4dp"
+        android:layout_marginBottom="0dp"
+        noghteh:textSize="@dimen/text_smaller"
+        noghteh:text="SEVIS is the Student and Exchange Visitor Information System. It is the US Government system for tracking all visitors to the US. You must register for SEVIS when you arrive, no later than 10 days after the start date listed on your DS-2019 form.\n\nRegistering for SEVIS is a requirement of your VISA. Failing to register SEVIS, update your contact information, and/or failing to complete monthly check-in requirements will result in your termination from the work &amp; travel USA program."
+        noghteh:textColor="@color/text_Black"
+        />
+
+</LinearLayout>

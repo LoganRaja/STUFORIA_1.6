@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Stuforia</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="open">open drawer</string>
+    <string name="closed">close drawer</string>
+
+    <string-array name="values">
+        <item>Home</item>
+        <item>My Dashboard</item>
+        <item>My Profile</item>
+    </string-array>
+    <string-array name="values1">
+        <item>About</item>
+        <item>Privacy Policy</item>
+        <item>Terms and Condition</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_search">SEARCH</string>
+    <string name="action_premium">PREMIUM</string>
+    <string name="action_call">CALL</string>
+    <string name="action_notification">NOTIFICATION</string>
+    <string name="title_activity_crop">CropActivity</string>
+    <string name="title_activity_competitive_exams">My Scores</string>
+    <string name="title_activity_introduction">Introduction</string>
+    <string name="title_activity_templates">Templates</string>
+    <string name="title_activity_pre_departure">Pre Departure</string>
+    <string name="title_activity_visa_processing">VISAs</string>
+    <string name="title_activity_four">4As</string>
+    <string name="title_activity_sevis">SEVIS</string>
+    <string name="title_activity_payment">Payments</string>
+    <string name="title_activity_pre_loader">Stuforia</string>
+    <string name="title_activity_sign_in">SignIn</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="title_activity_edit_profile">SignUp</string>
+    <string name="title_activity_terms">Terms and Condition</string>
+    <string name="title_activity_privacy">Privacy Policy</string>
+    <string name="privacy"><u>Privacy Policy</u></string>
+    <string name="terms"><u>Terms and Conditions</u></string>
+
+
+</resources>

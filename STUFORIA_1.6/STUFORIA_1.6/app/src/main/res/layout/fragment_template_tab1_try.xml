@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="vertical"
+    android:overScrollMode="ifContentScrolls"
+    android:verticalScrollbarPosition="defaultPosition"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/padding">
+
+                        <com.compunet.stuforia.JustifiedTextView
+                            xmlns:noghteh="http://noghteh.ir"
+                            noghteh:textSize="@dimen/text_smaller"
+                            noghteh:textColor="@color/text_Black"
+                            android:paddingRight="4dp"
+                            android:layout_marginBottom="0dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            noghteh:text="This document is provided to prove the financial soundness of student/parents. Most of the US Universities require this before taking decisions on admit to an international student."/>
+
+
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:textSize="@dimen/text_small"
+                    android:text="View template"
+                    android:textAllCaps="false"
+                    android:layout_marginTop="@dimen/margin"
+                    android:background="@drawable/rectangle_border_red"
+                    android:id="@+id/fs_v"
+                    />
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:textSize="@dimen/text_small"
+                    android:text="Generate and download"
+                    android:textAllCaps="false"
+                    android:layout_marginTop="@dimen/margin"
+                    android:background="@drawable/rectangle_border_red"
+                    android:id="@+id/fs"
+                    />
+        </LinearLayout>
+
+
+    </ScrollView>

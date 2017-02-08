@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/padding"
+        >
+
+        <com.compunet.stuforia.JustifiedTextView
+            xmlns:noghteh="http://noghteh.ir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="3dp"
+            android:paddingRight="4dp"
+            android:layout_marginBottom="0dp"
+            noghteh:textSize="@dimen/text_smaller"
+            noghteh:text="We offer a smooth transfer of funds from your wallet to the responsive Institution / Agency / Organization with minimum process and hassle free mode of operation. We take care of your following payments."
+            noghteh:textColor="@color/text_Black"
+            />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:text="SEVIS"
+            android:layout_marginTop="@dimen/margin"
+            android:background="@drawable/rectangle_border_red"
+            android:id="@+id/sevis"
+            android:textSize="@dimen/text_small"
+             />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:text="Competitive Exams"
+            android:textAllCaps="false"
+            android:layout_marginTop="@dimen/margin"
+            android:background="@drawable/rectangle_border_red"
+            android:id="@+id/competitive_exams"
+            android:textSize="@dimen/text_small"
+           />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:text="Foreign Exchange"
+            android:textAllCaps="false"
+            android:layout_marginTop="@dimen/margin"
+            android:background="@drawable/rectangle_border_red"
+            android:id="@+id/foreign_exchange"
+            android:textSize="@dimen/text_small"
+             />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:text="VISA Processing"
+            android:textAllCaps="false"
+            android:layout_marginTop="@dimen/margin"
+            android:background="@drawable/rectangle_border_red"
+            android:id="@+id/visa_processing"
+            android:textSize="@dimen/text_small"
+             />
+
+</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding">
+
+    <com.compunet.stuforia.JustifiedTextView
+        xmlns:noghteh="http://noghteh.ir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="3dp"
+        android:paddingRight="4dp"
+        android:layout_marginBottom="0dp"
+        noghteh:textSize="@dimen/text_smaller"
+        noghteh:text="The general medical examination is a common form of preventive medicine involving visits to a general practitioner by well feeling adults on an regular basis. This is generally yearly or less frequently. It is known under several other name, such as the periodic health evolution, annual physical, comprehensive medical exam, general health check or preventive health examination."
+        noghteh:textColor="#515151"
+        />
+
+</LinearLayout>

@@ -1,0 +1,110 @@
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/customborder"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/padding"
+        android:background="#00ffffff"
+        android:gravity="center"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/father_name"
+            android:layout_marginBottom="@dimen/margin"
+            android:hint="Father Name"
+            android:textColor="@color/text_Black"
+            android:gravity="center"
+            android:inputType="text"
+            android:visibility="gone"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/father_age"
+            android:layout_marginBottom="@dimen/margin"
+            android:hint="Father Age"
+            android:textColor="@color/text_Black"
+            android:gravity="center"
+            android:inputType="number"
+            android:visibility="gone"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mother_name"
+            android:hint="Mother Name"
+            android:layout_marginBottom="@dimen/margin"
+            android:textColor="@color/text_Black"
+            android:gravity="center"
+            android:inputType="text"
+            android:visibility="gone"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mother_age"
+            android:hint="Mother Age"
+            android:textColor="@color/text_Black"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/margin"
+            android:inputType="number"
+            android:visibility="gone"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/student_name"
+            android:textColor="@color/text_Black"
+            android:hint="Student Name"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/margin"
+            android:inputType="text"
+            android:visibility="gone"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin"
+            android:textColor="@color/text_Black"
+            android:id="@+id/account_number"
+            android:hint="Account Number"
+            android:gravity="center"
+            android:inputType="text"
+            android:visibility="gone"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin"
+            android:textColor="@color/text_Black"
+            android:id="@+id/student_address"
+            android:hint="Address"
+            android:gravity="center"
+            android:inputType="text"
+            android:visibility="gone"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <Button
+            android:text="Submit"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:background="@drawable/rectangle_border_red"
+            android:id="@+id/submit" />
+    </LinearLayout>
+
+</ScrollView>

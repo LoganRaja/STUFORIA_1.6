@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:textSize">@dimen/text_small</item>
+        <item name="colorPrimaryDark">@color/blue</item>
+        <item name="colorPrimary">@color/dark_blue</item>
+    </style>
+    <style name="TextAppearance.Widget.ActionBar.Subtitle"
+        parent="@android:style/TextAppearance.Small">
+    </style>
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:textSize">@dimen/text_small</item>
+    </style>
+    <style name="Theme.MyCompatTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowBackground">@color/winBackground</item>
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+        <item name="actionBarStyle">@style/ActionBar</item>
+        <item name="android:textSize">@dimen/text_small</item>
+    </style>
+
+
+    <style name="ActionBar"
+        parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/background</item>
+        <item name="background">@color/blue</item>
+        <item name="android:textSize">@dimen/text_small</item>
+    </style>
+<style name="AppTheme.custom">
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowCloseOnTouchOutside">true</item>
+    <item name="android:textSize">@dimen/text_small</item>
+</style>
+    <color name="winBackground">#98cb4a</color>
+    <color name="background">#f76d3c</color>
+</resources>

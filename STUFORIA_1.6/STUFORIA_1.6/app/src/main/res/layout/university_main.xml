@@ -1,0 +1,125 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#afafaf"
+    android:orientation="vertical"
+  >
+  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".75"
+        android:paddingRight="@dimen/padding"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+        android:layout_marginTop="@dimen/margin"
+        android:id="@+id/filter"
+        android:background="@drawable/rectangle_border_grey"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_search_white_18dp"
+            android:background="@drawable/carousel_deselected"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="invisible"
+            android:src="@drawable/ic_search_white_18dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Advanced search"
+            android:textSize="@dimen/text_small"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/autoCompleteTextView"
+        android:hint="Univ. Abbreviated form (e.g) like MIT, BU..."
+        android:textColorHint="#2d5da7"
+        android:textSize="@dimen/text_small"
+        android:gravity="center|bottom"
+        />
+
+     <view
+        class="android.support.v7.widget.RecyclerView"
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:gravity="center"
+        android:visibility="gone"
+        android:id="@+id/userhint"
+        android:orientation="horizontal"
+        android:background="@color/red_light"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="* Long press to "
+            android:textStyle="italic"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_tiny"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select"
+            android:textStyle="italic|bold"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_smaller"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" / "
+            android:textStyle="italic"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_tiny"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Remove"
+            android:textStyle="italic|bold"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_smaller"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" a University"
+            android:textStyle="italic"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_tiny"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

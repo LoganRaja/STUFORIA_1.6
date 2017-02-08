@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollmain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/padding">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin"
+            android:textStyle="bold"
+            android:gravity="start"
+            android:textSize="@dimen/text_small"
+            android:text="ApplicationChecklist"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/margin">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/margin">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_smaller"
+                    android:background="@drawable/ic_university"
+                    />
+            </LinearLayout>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Online Application Completion"
+                android:textColor="#515151"
+                android:layout_weight="9"
+                android:textSize="@dimen/text_smaller"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/margin"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/margin">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_smaller"
+                    android:background="@drawable/ic_university"
+                    />
+            </LinearLayout>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Online Payment or DD"
+                android:textColor="#515151"
+                android:layout_weight="9"
+                android:textSize="@dimen/text_smaller"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/margin">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/margin">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_smaller"
+                    android:background="@drawable/ic_university"
+                    />
+            </LinearLayout>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="GRE /GMAT"
+                android:textColor="#515151"
+                android:layout_weight="9"
+                android:textSize="@dimen/text_smaller"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/margin">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/margin">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_smaller"
+                    android:background="@drawable/ic_university"
+                    />
+            </LinearLayout>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="TOEFL (IELTS/PTE if acceptable) "
+                android:textColor="#515151"
+                android:layout_weight="9"
+                android:textSize="@dimen/text_smaller"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/margin">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/margin">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_smaller"
+                    android:background="@drawable/ic_university"
+                    />
+            </LinearLayout>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Transcripts"
+                android:textColor="#515151"
+                android:layout_weight="9"
+                android:textSize="@dimen/text_smaller"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/margin">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/margin">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_smaller"
+                    android:background="@drawable/ic_university"
+                    />
+            </LinearLayout>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="3 LORs"
+                android:textColor="#515151"
+                android:layout_weight="9"
+                android:textSize="@dimen/text_smaller"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/margin">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/margin">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_smaller"
+                    android:background="@drawable/ic_university"
+                    />
+            </LinearLayout>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="SOP"
+                android:textColor="#515151"
+                android:layout_weight="9"
+                android:textSize="@dimen/text_smaller"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/margin">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/margin">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_smaller"
+                    android:background="@drawable/ic_university"
+                    />
+            </LinearLayout>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="CV (Optional for Freshers) "
+                android:textColor="#515151"
+                android:layout_weight="9"
+                android:textSize="@dimen/text_smaller"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/margin">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/margin">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_smaller"
+                    android:background="@drawable/ic_university"
+                    />
+            </LinearLayout>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Financial Statements"
+                android:textColor="#515151"
+                android:layout_weight="9"
+                android:textSize="@dimen/text_smaller"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/margin">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/margin">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_smaller"
+                    android:background="@drawable/ic_university"
+                    />
+            </LinearLayout>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Notarised Affidavit of Support. (If required by Univerities) "
+                android:textColor="#515151"
+                android:layout_weight="9"
+                android:textSize="@dimen/text_smaller"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

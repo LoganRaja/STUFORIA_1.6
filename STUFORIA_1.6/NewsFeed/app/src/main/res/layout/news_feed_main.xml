@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+  >
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:layout_weight="1.1"
+         android:background="@color/white"
+         android:paddingLeft="@dimen/padding"
+         android:paddingRight="@dimen/padding">
+
+          <!--<TextView
+              android:layout_width="0dp"
+              android:layout_height="match_parent"
+              android:text="@string/fa_icon_areachart"
+              android:layout_weight="1.5"/>-->
+
+          <TextView
+              android:layout_width="0dp"
+              android:layout_height="match_parent"
+              android:gravity="start|center_vertical"
+              android:layout_weight="1.5"
+              android:textColor="@color/gray"
+              android:id="@+id/img_menu"
+              android:textSize="@dimen/text_large"
+              android:textStyle="bold"
+              android:text="@string/menu_icon" />
+
+          <TextView
+              android:layout_width="0dp"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:layout_weight="1.5"
+              android:textColor="@color/gray"
+              android:textSize="@dimen/text_large"
+              android:layout_marginLeft="@dimen/margin"
+              android:textStyle="bold"/>
+
+          <TextView
+              android:layout_width="0dp"
+              android:layout_height="match_parent"
+              android:layout_weight="7"
+              android:text="in"
+              android:textColor="@color/skyblue"
+              android:textStyle="bold"
+              android:gravity="center_horizontal|top"
+              android:textSize="45dp"/>
+
+          <TextView
+              android:layout_width="0dp"
+              android:layout_height="match_parent"
+              android:gravity="start|center_vertical"
+              android:layout_weight="1.5"
+              android:textColor="@color/gray"
+              android:id="@+id/img_search"
+              android:textSize="@dimen/text_large"
+              android:textStyle="bold"
+              android:layout_marginRight="@dimen/margin"
+              android:text="@string/search_icon" />
+
+          <de.hdodenhof.circleimageview.CircleImageView
+              android:layout_width="0dp"
+              android:layout_height="match_parent"
+              android:layout_weight="1.5"
+              android:src="@drawable/profile_pic1"/>
+     </LinearLayout>
+     <view
+        class="android.support.v7.widget.RecyclerView"
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+         android:layout_weight="9.5"
+        />
+
+</LinearLayout>

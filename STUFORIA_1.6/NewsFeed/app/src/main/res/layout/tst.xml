@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+
+    >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_small"
+            >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/custom_border"
+                    android:id="@+id/general_post"
+                    android:padding="@dimen/padding"
+                    android:visibility="visible">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+                                        <LinearLayout
+                                            android:layout_width="0dp"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="1.5"
+                                            android:gravity="center_vertical">
+
+                                                <de.hdodenhof.circleimageview.CircleImageView
+                                                    android:layout_width="45dp"
+                                                    android:layout_height="45dp"
+                                                    android:src="@drawable/profile_pic2"
+                                                    android:visibility="visible"
+                                                    android:id="@+id/profile_pic"/>
+                                        </LinearLayout>
+
+                                        <TextView
+                                            android:layout_width="0dp"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="8"
+                                            android:id="@+id/profile_name"
+                                            android:text="sdfasdf\"
+                                            android:visibility="visible"
+                                            android:textColor="@color/gray"
+                                            android:textSize="@dimen/text_small"
+                                            android:gravity="start"/>
+                                        <TextView
+                                            android:layout_width="0dp"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight=".7"
+                                            android:text="2h"
+                                            android:visibility="visible"
+                                            android:id="@+id/posted_time"
+                                            android:textSize="@dimen/text_small"
+                                            android:gravity="start"/>
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:weightSum="10.2"
+                                    android:gravity="center">
+                                        <TextView
+                                            android:layout_width="0dp"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="1.5"/>
+                                        <TextView
+                                            android:layout_width="0dp"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="8"
+                                            android:paddingTop="@dimen/padding_small"
+                                            android:visibility="visible"
+                                            android:paddingBottom="@dimen/padding_small"
+                                            android:text="You have to check out these amazing vacation
+spots in this article. We should really think about visiting then soon!"
+                                            android:textSize="@dimen/text_small"
+                                            android:gravity="start"
+                                            android:id="@+id/posted_description"/>
+                                        <TextView
+                                            android:layout_width="0dp"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight=".7"/>
+
+                                </LinearLayout>
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="220dp"
+                                    android:src="@drawable/post1"
+                                    android:scaleType="fitXY"
+                                    android:id="@+id/post"
+                                    android:visibility="visible"/>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="@dimen/text_tiny"
+                                    android:text="BY JENNA BROCKHEIMER DEC 5,2015"
+                                    android:padding="@dimen/padding_small"
+                                    android:visibility="visible"
+                                    android:id="@+id/post_des_old"
+                                    android:gravity="start"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:background="@color/light_gray"
+                            android:padding="@dimen/padding_small">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="@dimen/text_tiny"
+                                    android:text="BY JENNA BROCKHEIMER DEC 5,2015"
+                                    android:padding="@dimen/padding_small"
+                                    android:id="@+id/comment_total_count"
+                                    android:visibility="visible"
+                                    android:gravity="start"/>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:visibility="visible"
+                                    android:id="@+id/comment1_layout"
+                                    android:orientation="vertical">
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:orientation="horizontal">
+                                                <LinearLayout
+                                                    android:layout_width="0dp"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_weight="1.5"
+                                                    android:gravity="center_vertical">
+
+                                                        <de.hdodenhof.circleimageview.CircleImageView
+                                                            android:layout_width="45dp"
+                                                            android:layout_height="45dp"
+                                                            android:src="@drawable/profile_pic3"
+                                                            android:visibility="visible"
+                                                            android:id="@+id/comment1_profile_pic"/>
+                                                </LinearLayout>
+
+                                                <TextView
+                                                    android:layout_width="0dp"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_weight="8"
+                                                    android:text="sdfasdf\"
+                                                    android:textSize="@dimen/text_small"
+                                                    android:visibility="visible"
+                                                    android:textColor="@color/gray"
+                                                    android:gravity="start"
+                                                    android:id="@+id/comment1_profile_name"
+                                                    />
+                                                <TextView
+                                                    android:layout_width="0dp"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_weight=".7"
+                                                    android:text="2h"
+                                                    android:visibility="visible"
+                                                    android:textSize="@dimen/text_tiny"
+                                                    android:gravity="start"
+                                                    android:id="@+id/comment1_time"/>
+                                        </LinearLayout>
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:weightSum="10.2"
+                                            android:gravity="center">
+                                                <TextView
+                                                    android:layout_width="0dp"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_weight="1.5"/>
+                                                <TextView
+                                                    android:layout_width="0dp"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_weight="8"
+                                                    android:text="Looks awesome. Let's talk about a convenient time to take vacation!"
+                                                    android:textSize="@dimen/text_small"
+                                                    android:gravity="start"
+                                                    android:visibility="visible"
+                                                    android:id="@+id/comment1_description"/>
+                                                <TextView
+                                                    android:layout_width="0dp"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_weight=".7"/>
+
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="2dp"
+                                            android:background="@color/gray"
+                                            android:id="@+id/comment1_border"
+                                            android:layout_margin="@dimen/margin"
+                                            android:visibility="visible"
+                                            android:orientation="horizontal"></LinearLayout>
+
+                                </LinearLayout>
+
+                        </LinearLayout>
+                </LinearLayout>
+
+
+
+        </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollmain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/padding">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin"
+            android:textStyle="bold"
+            android:gravity="start"
+            android:textSize="@dimen/text_small"
+            android:text="Documents required from USA "
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/margin">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginRight="@dimen/margin">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_smaller"
+                    android:background="@drawable/ic_university"
+                    />
+            </LinearLayout>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Passport copy of the Student"
+                android:textColor="#515151"
+                android:layout_weight="9"
+                android:textSize="@dimen/text_smaller"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/margin">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginRight="@dimen/margin">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_smaller"
+                    android:background="@drawable/ic_university"
+                    />
+            </LinearLayout>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="F-1 VISA copy of the Student"
+                android:textColor="#515151"
+                android:layout_weight="9"
+                android:textSize="@dimen/text_smaller"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/margin">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginRight="@dimen/margin">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_smaller"
+                    android:background="@drawable/ic_university"
+                    />
+            </LinearLayout>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="I-20 form of the Student "
+                android:textColor="#515151"
+                android:layout_weight="9"
+                android:textSize="@dimen/text_smaller"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/margin">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginRight="@dimen/margin">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_smaller"
+                    android:background="@drawable/ic_university"
+                    />
+            </LinearLayout>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="I-20 form of the Dependent"
+                android:textColor="#515151"
+                android:layout_weight="9"
+                android:textSize="@dimen/text_smaller"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin"
+            android:textStyle="bold"
+            android:gravity="start"
+            android:textSize="@dimen/text_small"
+            android:text="Documents required from India "
+            />
+        <com.compunet.stuforia.JustifiedTextView
+            xmlns:noghteh="http://noghteh.ir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="3dp"
+            android:paddingRight="4dp"
+            noghteh:layout_marginBottom="0dp"
+            noghteh:text="Proof of relationship like wedding registration certificate, family proofs,etc., of the student."
+            noghteh:textColor="#515151"
+            noghteh:textSize="@dimen/text_smaller"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/padding" />
+        <com.compunet.stuforia.JustifiedTextView
+            xmlns:noghteh="http://noghteh.ir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="3dp"
+            android:paddingRight="4dp"
+            noghteh:layout_marginBottom="0dp"
+            noghteh:text="Documents showing evidence of funds available for the F-2 VISA applicant to support living expenses in USA."
+            noghteh:textColor="#515151"
+            noghteh:textSize="@dimen/text_smaller"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/padding" />
+        <com.compunet.stuforia.JustifiedTextView
+            xmlns:noghteh="http://noghteh.ir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="3dp"
+            android:paddingRight="4dp"
+            android:layout_marginBottom="0dp"
+            noghteh:text="This includes Bank statement, IT papers, salary certificates and net worth statement of applicant/sponsors."
+            noghteh:textColor="#515151"
+            noghteh:textSize="@dimen/text_smaller"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/padding" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/padding"
+    >
+
+    <com.compunet.stuforia.JustifiedTextView
+        xmlns:noghteh="http://noghteh.ir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="3dp"
+        android:paddingRight="4dp"
+        android:layout_marginBottom="0dp"
+        noghteh:textSize="@dimen/text_smaller"
+        noghteh:text="12.25 % p.a. at present."
+        noghteh:textColor="#515151"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin"
+       />
+    <com.compunet.stuforia.JustifiedTextView
+        xmlns:noghteh="http://noghteh.ir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="3dp"
+        android:paddingRight="4dp"
+        android:layout_marginBottom="0dp"
+        noghteh:textSize="@dimen/text_smaller"
+        noghteh:text="Concession of 0.50% in applicable rate of interest will be allowed on fresh educational loans under IBA scheme to girl students for studies in India and Abroad with effect from 1st July 2009. This interest concession will not be applicable to education loans under non-IBA scheme."
+        noghteh:textColor="#515151"
+        />
+
+</LinearLayout>

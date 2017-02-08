@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:padding="@dimen/padding">
+        <!-- Name Label -->
+        <TextView android:id="@+id/bankname_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_large"
+            android:textStyle="bold"
+            android:paddingBottom="@dimen/padding"
+            android:textColor="@color/primary"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Checklist"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_medium"
+            android:textColor="@color/text_Black"
+            android:visibility="gone"
+            android:paddingBottom="@dimen/padding"
+            android:id="@+id/title_checklist"
+            />
+
+        <TextView
+            android:id="@+id/checklist_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_small"
+            android:paddingBottom="@dimen/padding"
+            android:visibility="gone"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rate of Interest"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_medium"
+            android:textColor="@color/text_Black"
+            android:visibility="gone"
+            android:paddingBottom="@dimen/padding"
+            android:id="@+id/title_rateofinterest"
+            />
+
+        <TextView android:id="@+id/rateofinterest_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_small"
+            android:paddingBottom="@dimen/padding"
+            android:visibility="gone"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Study Abroad"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_medium"
+            android:textColor="@color/text_Black"
+            android:visibility="gone"
+            android:paddingBottom="@dimen/padding"
+            android:id="@+id/title_studyabroad"
+            />
+
+        <TextView android:id="@+id/studyabroad_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_small"
+            android:paddingBottom="@dimen/padding"
+            android:visibility="gone"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Loan for girls"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_medium"
+            android:textColor="@color/text_Black"
+            android:visibility="gone"
+            android:paddingBottom="@dimen/padding"
+            android:id="@+id/title_loanforgirls"
+            />
+
+        <TextView android:id="@+id/loanforgirls_label"
+            android:layout_width="match_parent"
+            android:paddingBottom="@dimen/padding"
+            android:textSize="@dimen/text_small"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Collateral Security"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_medium"
+            android:textColor="@color/text_Black"
+            android:visibility="gone"
+            android:paddingBottom="@dimen/padding"
+            android:id="@+id/title_collateralsecurity"
+            />
+
+        <TextView android:id="@+id/collateralsecurity_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/padding"
+            android:textSize="@dimen/text_small"
+            android:visibility="gone"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Co-applicant Self employed"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_medium"
+            android:textColor="@color/text_Black"
+            android:visibility="gone"
+            android:paddingBottom="@dimen/padding"
+            android:id="@+id/title_coapplicantselfemployed"
+            />
+
+        <TextView android:id="@+id/coapplicantselfemployed_label"
+            android:layout_width="match_parent"
+            android:paddingBottom="@dimen/padding"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_small"
+            android:visibility="gone"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Co-applicant salaried"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_medium"
+            android:textColor="@color/text_Black"
+            android:visibility="gone"
+            android:paddingBottom="@dimen/padding"
+            android:id="@+id/title_coapplicantsalaried"
+            />
+
+        <TextView android:id="@+id/coapplicantsalaried_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_small"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,273 @@
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="vertical"
+    android:overScrollMode="ifContentScrolls"
+    android:verticalScrollbarPosition="defaultPosition"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_small"
+            android:text="GRE"
+            android:padding="@dimen/padding"
+                android:id="@+id/textView"
+                android:textStyle="bold"
+                android:textColor="#515151"
+                />
+          <!--  <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/grey">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="@dimen/margin"
+                 >
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="9"
+                   >
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/text_small"
+                        android:background="@drawable/ic_arrow_down"
+                        />
+                </LinearLayout>
+            </LinearLayout>-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/padding"
+                android:background="@color/grey">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="@dimen/margin"
+                    android:layout_marginRight="@dimen/margin">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_information"
+                        />
+                </LinearLayout>
+                <com.compunet.stuforia.JustifiedTextView
+                    xmlns:noghteh="http://noghteh.ir"
+                    android:layout_width="0dp"
+                    android:layout_gravity="top"
+                    android:layout_height="match_parent"
+                    android:layout_weight="9"
+                    android:layout_marginBottom="0dp"
+                    android:lineSpacingExtra="3dp"
+                    android:paddingRight="4dp"
+                    noghteh:text="The GRE is an admission test conducted to do degree programs in all University. It deals with analytical writing, quantitative reasoning, verbal reasoning."
+                    noghteh:textColor="#FFFFFF"
+                    noghteh:textSize="@dimen/text_smaller"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_small"
+                android:text="GMAT"
+                android:padding="@dimen/padding"
+                android:textStyle="bold"
+                android:textColor="#515151"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/padding"
+                android:background="@color/grey">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="@dimen/margin"
+                    android:layout_marginRight="@dimen/margin">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_information"
+                        />
+                </LinearLayout>
+                <com.compunet.stuforia.JustifiedTextView
+                    xmlns:noghteh="http://noghteh.ir"
+                    android:layout_width="0dp"
+                    android:layout_gravity="top"
+                    android:layout_height="match_parent"
+                    android:layout_weight="9"
+                    android:layout_marginBottom="0dp"
+                    android:lineSpacingExtra="3dp"
+                    android:paddingRight="4dp"
+                    noghteh:text="The GMAT test examination is a core requirement for applying to many MBA programs. It deals with Analytical writing assessment, quantitative and verbal reasoning."
+                    noghteh:textColor="#FFFFFF"
+                    noghteh:textSize="@dimen/text_smaller"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_small"
+                android:text="TOEFL"
+                android:padding="@dimen/padding"
+                android:textStyle="bold"
+                android:textColor="#515151"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/padding"
+                android:background="@color/grey">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="@dimen/margin"
+                    android:layout_marginRight="@dimen/margin">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_information"
+                        />
+                </LinearLayout>
+                <com.compunet.stuforia.JustifiedTextView
+                    xmlns:noghteh="http://noghteh.ir"
+                    android:layout_width="0dp"
+                    android:layout_gravity="top"
+                    android:layout_height="match_parent"
+                    android:layout_weight="9"
+                    android:layout_marginBottom="0dp"
+                    android:lineSpacingExtra="3dp"
+                    android:paddingRight="4dp"
+                    noghteh:text="TOEFL is a standardized test of English language proficiency for non-native English language speakers wishing to enroll in USA Universities. It is now totally internet based."
+                    noghteh:textColor="#FFFFFF"
+                    noghteh:textSize="@dimen/text_smaller"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_small"
+                android:text="IELTS"
+                android:padding="@dimen/padding"
+                android:textStyle="bold"
+                android:textColor="#515151"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/padding"
+                android:background="@color/grey">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="@dimen/margin"
+                    android:layout_marginRight="@dimen/margin">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_information"
+                        />
+                </LinearLayout>
+                <com.compunet.stuforia.JustifiedTextView
+                    xmlns:noghteh="http://noghteh.ir"
+                    android:layout_width="0dp"
+                    android:layout_gravity="top"
+                    android:layout_height="match_parent"
+                    android:layout_weight="9"
+                    android:layout_marginBottom="0dp"
+                    android:lineSpacingExtra="3dp"
+                    android:paddingRight="4dp"
+                    noghteh:text="IELTS is an international standardized test of English language proficiency for non-native English language speakers. It is considered to be one of the major English language test."
+                    noghteh:textColor="#FFFFFF"
+                    noghteh:textSize="@dimen/text_smaller"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_small"
+                android:text="PTE"
+                android:padding="@dimen/padding"
+                android:textStyle="bold"
+                android:textColor="#515151"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/padding"
+                android:background="@color/grey">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="@dimen/margin"
+                    android:layout_marginRight="@dimen/margin">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_information"
+                        />
+                </LinearLayout>
+                <com.compunet.stuforia.JustifiedTextView
+                    xmlns:noghteh="http://noghteh.ir"
+                    android:layout_width="0dp"
+                    android:layout_gravity="top"
+                    android:layout_height="match_parent"
+                    android:layout_weight="9"
+                    android:layout_marginBottom="0dp"
+                    android:lineSpacingExtra="3dp"
+                    android:paddingRight="4dp"
+                    noghteh:text="PTE is an international standardized test of English language proficiency for non-native English language speakers. It is considered to be one of the major English language test."
+                    noghteh:textColor="#FFFFFF"
+                    noghteh:textSize="@dimen/text_smaller"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

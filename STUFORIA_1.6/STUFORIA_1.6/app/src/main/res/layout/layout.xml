@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#303030"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#fff">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000"
+                >
+
+
+                <TextView
+                    android:id="@+id/t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="Showcase"
+                    android:textColor="#fff"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingBottom="10dp"
+                    android:textStyle="bold"
+
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="30dp"
+                    />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#fff"
+                android:background="#000"
+                android:paddingRight="50dp"
+                android:paddingLeft="80dp"
+                android:textStyle="bold"
+                android:text="Check Out Our Portfolio."
+                android:textSize="15dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:orientation="horizontal"
+                android:background="#000"
+                >
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:orientation="horizontal"
+                android:background="#fff"
+                >
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                >
+                <Button
+                    android:id="@+id/btt1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#99ffcb05"
+                    android:layout_weight="5"
+                    android:layout_marginLeft="5dp"
+
+                    android:text="Clients"
+                    android:textSize="22sp"
+                    android:textColor="#000"
+
+
+                    />
+                <LinearLayout
+                    android:layout_width="5dp"
+                    android:layout_height="10dp"
+                    android:orientation="horizontal"
+                    >
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btt2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:text="Logo design"
+                    android:textSize="22sp"
+                    android:textColor="#000"
+
+                    android:background="#99FF0066"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:orientation="horizontal"
+                >
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                >
+                <Button
+                    android:id="@+id/btt3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#99FEAC58"
+                    android:layout_weight="5"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="2dp"
+                    android:text="Web Designing"
+                    android:textSize="22sp"
+                    android:textColor="#000"
+                    />
+                <LinearLayout
+                    android:layout_width="5dp"
+                    android:layout_height="10dp"
+                    android:orientation="horizontal"
+
+                    >
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btt4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginEnd="5dp"
+
+                    android:background="#991E90FF"
+                    android:text="web portal"
+                    android:textSize="22sp"
+                    android:textColor="#000"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:orientation="horizontal"
+                >
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_weight="5" >
+                <Button
+                    android:id="@+id/btt5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:layout_marginLeft="5dp"
+
+                    android:background="#99BAB932"
+                    android:text="corporate identity"
+                    android:textSize="22sp"
+                    android:textColor="#000"/>
+                <LinearLayout
+                    android:layout_width="5dp"
+                    android:layout_height="10dp"
+                    android:orientation="horizontal"
+                    >
+                </LinearLayout>
+                <Button
+                    android:id="@+id/btt6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:layout_marginRight="5dp"
+                    android:background="#99D82545"
+                    android:text="print design"
+                    android:textSize="22sp"
+                    android:textColor="#000"
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:orientation="horizontal"
+                >
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_weight="1" >
+                <Button
+                    android:id="@+id/btt7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#000"
+                    android:background="#991E1E1E"
+                    android:text="e-commerce"
+                    android:textSize="22sp"
+                    />
+                <LinearLayout
+                    android:layout_width="5dp"
+                    android:layout_height="10dp"
+                    android:orientation="horizontal"
+                    >
+                </LinearLayout>
+                <Button
+                    android:id="@+id/btt8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:layout_marginRight="5dp"
+                    android:background="#99006400"
+                    android:text="seo"
+                    android:textSize="22sp"
+                    android:textColor="#000"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                >
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:background="#000"
+                >
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

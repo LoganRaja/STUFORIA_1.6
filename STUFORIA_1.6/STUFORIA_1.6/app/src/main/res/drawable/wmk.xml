@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@drawable/logo_grey"
+    android:tileMode="disabled"
+    android:gravity="center"/>
+<!--
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    &lt;!&ndash;<item
+        android:id="@+id/wmk_item"
+        android:drawable="@drawable/logo_grey"
+
+        />
+&ndash;&gt;
+
+
+</layer-list>
+
+    &lt;!&ndash;android:top="180dp"
+    android:right="100dp"
+    android:bottom="200dp"
+    android:left="100dp"&ndash;&gt;-->

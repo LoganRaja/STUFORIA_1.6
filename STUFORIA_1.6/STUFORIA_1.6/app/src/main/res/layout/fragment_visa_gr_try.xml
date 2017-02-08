@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="vertical"
+    android:overScrollMode="ifContentScrolls"
+    android:verticalScrollbarPosition="defaultPosition"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/margin">
+        <com.compunet.stuforia.JustifiedTextView
+            xmlns:noghteh="http://noghteh.ir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="3dp"
+            android:paddingRight="4dp"
+            noghteh:layout_marginBottom="@dimen/margin"
+            android:id="@+id/justified"
+            noghteh:text="Its a dream for any parent to see their child graduating from a reputed University especially world class ones in USA.\n\nStudents too would love to see their parents/siblings/friends and relatives to be present for the graduation day ceremony.\n\nThis special day is a memorable one for the entire family and be special one if celebrated with loved ones.
+B-1/B-2 visa is the one which allows family friends to attend the function."
+            noghteh:textColor="#515151"
+            noghteh:textSize="@dimen/text_smaller"
+            />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectangle_border_red"
+            android:text="Documents from India"
+            android:textAllCaps="false"
+            android:textSize="@dimen/text_small"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/margin"
+            android:id="@+id/gr_from_india"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectangle_border_red"
+            android:text="Documents from USA"
+            android:textAllCaps="false"
+            android:textSize="@dimen/text_small"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/margin"
+            android:id="@+id/gr_from_usa"/>
+
+    </LinearLayout>
+
+</ScrollView>

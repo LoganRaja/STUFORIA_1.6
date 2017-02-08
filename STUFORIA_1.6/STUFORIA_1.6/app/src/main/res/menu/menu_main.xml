@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <!--<item
+        android:id="@+id/action_premium"
+        android:title="@string/action_search"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_premium_member"
+        app:showAsAction="always" />-->
+
+    <!--<item
+        android:id="@+id/action_search"
+        android:title="@string/action_search"
+        android:orderInCategory="100"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always" />-->
+    <item
+        android:id="@+id/action_notification"
+        android:title="NOTIFICATION"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_apt"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/action_help"
+        android:title="HELP"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_helpdesk_white"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/action_call"
+        android:title="@string/action_call"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_call"
+        app:showAsAction="always"
+        />
+    <!--<item
+        android:id="@+id/action_notification"
+        android:title="@string/action_notification"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_notifications"
+        app:showAsAction="always"
+        />-->
+
+    <item
+        android:id="@+id/action_more"
+        android:title="More"
+        android:icon="@drawable/abc_ic_menu_moreoverflow_mtrl_alpha"
+        android:orderInCategory="100"
+        app:showAsAction="always" >
+        <menu>
+            <item
+                android:id="@+id/action_about"
+                android:title="About"
+                android:icon="@drawable/ic_about_select"
+                android:orderInCategory="100"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/action_privacy"
+                android:title="Privacy Policy"
+                android:icon="@drawable/ic_privacy_policies_select_1"
+                android:orderInCategory="100"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/action_terms"
+                android:title="Terms and Condition"
+                android:icon="@drawable/ic_terms_and_condition_select"
+                android:orderInCategory="100"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/share"
+                android:title="Share this App"
+                android:icon="@drawable/share"
+                android:orderInCategory="100"
+                app:showAsAction="never" />
+
+        </menu>
+    </item>
+
+</menu>

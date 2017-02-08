@@ -1,0 +1,73 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/customborder"
+    android:gravity="center"
+    android:orientation="vertical"
+     >
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="3"/>
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:id="@+id/editText2"
+       android:hint="Current Password"
+       android:layout_marginLeft="@dimen/margin"
+       android:layout_marginRight="@dimen/margin"
+       android:textSize="@dimen/text_small"
+       android:textColor="@color/gray"
+       android:layout_weight="1"
+       android:inputType="textPassword"
+       android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/editText3"
+        android:textColor="@color/gray"
+        android:layout_centerHorizontal="true"
+        android:hint="New Password"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+        android:textSize="@dimen/text_small"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/gray"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/editText4"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+        android:textSize="@dimen/text_small"
+        android:hint="Retype Password"
+        android:inputType="textPassword"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Change password"
+        android:textAllCaps="false"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+        android:layout_marginTop="@dimen/margin"
+        android:textSize="@dimen/text_small"
+        android:id="@+id/change_password"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:background="@drawable/rectangle_border_red"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+      />
+</LinearLayout>
+

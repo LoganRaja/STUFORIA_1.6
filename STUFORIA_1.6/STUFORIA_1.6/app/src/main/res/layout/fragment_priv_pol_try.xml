@@ -1,0 +1,1048 @@
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/padding"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/layout_privacy"
+            android:background="@drawable/scroll_bar_vertical_red"
+            android:gravity="center"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:src="@drawable/logo"
+                android:layout_marginBottom="@dimen/margin"
+                android:layout_marginTop="@dimen/margin"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Privacy Policy"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_small"
+            android:layout_marginBottom="@dimen/margin"
+            android:textColor="@color/text_Black"
+            android:layout_marginTop="@dimen/margin" />
+        <!--
+                <com.compunet.stuforia.JustifiedTextView
+                    xmlns:noghteh="http://noghteh.ir"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="3dp"
+                    android:layout_marginBottom="0dp"
+                    noghteh:text="• Stuforia takes your privacy very seriously\n• What we collect?\n• What we do with the information we gather?\n• Security\n• How we use cookies\n• Links to other Applications\n• Controlling your personal information"
+                    noghteh:textColor="@color/text_Black"
+                    noghteh:textSize="@dimen/text_smaller"
+                    android:paddingRight="4dp" />-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".3">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="•"
+                    />
+            </LinearLayout>
+            <com.compunet.stuforia.JustifiedTextView
+                xmlns:noghteh="http://noghteh.ir"
+                android:layout_width="0dp"
+                android:layout_gravity="top"
+                android:layout_height="match_parent"
+                android:layout_weight="9"
+                android:layout_marginBottom="0dp"
+                android:lineSpacingExtra="3dp"
+                android:paddingRight="4dp"
+                noghteh:text="Stuforia takes your privacy very seriously\n"
+                noghteh:textColor="#515151"
+                noghteh:textSize="@dimen/text_smaller"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".3"
+               >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="•"
+                    />
+            </LinearLayout>
+            <com.compunet.stuforia.JustifiedTextView
+                xmlns:noghteh="http://noghteh.ir"
+                android:layout_width="0dp"
+                android:layout_gravity="top"
+                android:layout_height="match_parent"
+                android:layout_weight="9"
+                android:layout_marginBottom="0dp"
+                android:lineSpacingExtra="3dp"
+                android:paddingRight="4dp"
+                noghteh:text="What we collect?\n"
+                noghteh:textColor="#515151"
+                noghteh:textSize="@dimen/text_smaller"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".3"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="•"
+                    />
+            </LinearLayout>
+            <com.compunet.stuforia.JustifiedTextView
+                xmlns:noghteh="http://noghteh.ir"
+                android:layout_width="0dp"
+                android:layout_gravity="top"
+                android:layout_height="match_parent"
+                android:layout_weight="9"
+                android:layout_marginBottom="0dp"
+                android:lineSpacingExtra="3dp"
+                android:paddingRight="4dp"
+                noghteh:text="What we do with the information we gather?\n"
+                noghteh:textColor="#515151"
+                noghteh:textSize="@dimen/text_smaller"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".3"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="•"
+                    />
+            </LinearLayout>
+            <com.compunet.stuforia.JustifiedTextView
+                xmlns:noghteh="http://noghteh.ir"
+                android:layout_width="0dp"
+                android:layout_gravity="top"
+                android:layout_height="match_parent"
+                android:layout_weight="9"
+                android:layout_marginBottom="0dp"
+                android:lineSpacingExtra="3dp"
+                android:paddingRight="4dp"
+                noghteh:text="Security\n"
+                noghteh:textColor="#515151"
+                noghteh:textSize="@dimen/text_smaller"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".3"
+               >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="•"
+                    />
+            </LinearLayout>
+            <com.compunet.stuforia.JustifiedTextView
+                xmlns:noghteh="http://noghteh.ir"
+                android:layout_width="0dp"
+                android:layout_gravity="top"
+                android:layout_height="match_parent"
+                android:layout_weight="9"
+                android:layout_marginBottom="0dp"
+                android:lineSpacingExtra="3dp"
+                android:paddingRight="4dp"
+                noghteh:text="How we use cookies\n"
+                noghteh:textColor="#515151"
+                noghteh:textSize="@dimen/text_smaller"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".3"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="•"
+                    />
+            </LinearLayout>
+            <com.compunet.stuforia.JustifiedTextView
+                xmlns:noghteh="http://noghteh.ir"
+                android:layout_width="0dp"
+                android:layout_gravity="top"
+                android:layout_height="match_parent"
+                android:layout_weight="9"
+                android:layout_marginBottom="0dp"
+                android:lineSpacingExtra="3dp"
+                android:paddingRight="4dp"
+                noghteh:text="Links to other Applications\n"
+                noghteh:textColor="#515151"
+                noghteh:textSize="@dimen/text_smaller"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".3"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="•"
+                    />
+            </LinearLayout>
+            <com.compunet.stuforia.JustifiedTextView
+                xmlns:noghteh="http://noghteh.ir"
+                android:layout_width="0dp"
+                android:layout_gravity="top"
+                android:layout_height="match_parent"
+                android:layout_weight="9"
+                android:layout_marginBottom="0dp"
+                android:lineSpacingExtra="3dp"
+                android:paddingRight="4dp"
+                noghteh:text="Controlling your personal information"
+                noghteh:textColor="#515151"
+                noghteh:textSize="@dimen/text_smaller"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stuforia takes your privacy very seriously"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_small"
+            android:layout_marginBottom="@dimen/margin"
+            android:textColor="@color/text_Black"
+            android:layout_marginTop="@dimen/margin" />
+        <com.compunet.stuforia.JustifiedTextView
+            xmlns:noghteh="http://noghteh.ir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="3dp"
+            android:layout_marginBottom="0dp"
+            noghteh:text="This privacy policy sets out how Stuforia uses and protects any information that you give Stuforia when you use this Application. Stuforia is committed to ensuring that your privacy is protected. Should we ask you to provide certain information by which you can be identified when using this Application, then you can be assured that it will only be used in accordance with this privacy statement. Stuforia may change this policy from time to time by updating this Application. You should check this Application from time to time ensure that you are happy with any changes. This policy is effective from September, 2015."
+            noghteh:textColor="@color/text_Black"
+            noghteh:textSize="@dimen/text_smaller"
+            android:paddingRight="4dp" />
+
+        <TextView
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What we collect?"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_small"
+            android:layout_marginBottom="@dimen/margin"
+            android:textColor="@color/text_Black"
+            android:layout_marginTop="@dimen/margin" />
+
+        <com.compunet.stuforia.JustifiedTextView
+            xmlns:noghteh="http://noghteh.ir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="3dp"
+            android:layout_marginBottom="0dp"
+            noghteh:text="We may collect the following informations of the User and his/her parents: \n\n"
+            noghteh:textColor="@color/text_Black"
+            noghteh:textSize="@dimen/text_smaller"
+            android:paddingRight="4dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".3">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="•"
+                    />
+            </LinearLayout>
+            <com.compunet.stuforia.JustifiedTextView
+                xmlns:noghteh="http://noghteh.ir"
+                android:layout_width="0dp"
+                android:layout_gravity="top"
+                android:layout_height="match_parent"
+                android:layout_weight="9"
+                android:layout_marginBottom="0dp"
+                android:lineSpacingExtra="3dp"
+                android:paddingRight="4dp"
+                noghteh:text="Name and Job title\n"
+                noghteh:textColor="#515151"
+                noghteh:textSize="@dimen/text_smaller"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".3">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="•"
+                    />
+            </LinearLayout>
+            <com.compunet.stuforia.JustifiedTextView
+                xmlns:noghteh="http://noghteh.ir"
+                android:layout_width="0dp"
+                android:layout_gravity="top"
+                android:layout_height="match_parent"
+                android:layout_weight="9"
+                android:layout_marginBottom="0dp"
+                android:lineSpacingExtra="3dp"
+                android:paddingRight="4dp"
+                noghteh:text="Birth date\n"
+                noghteh:textColor="#515151"
+                noghteh:textSize="@dimen/text_smaller"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".3">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="•"
+                    />
+            </LinearLayout>
+            <com.compunet.stuforia.JustifiedTextView
+                xmlns:noghteh="http://noghteh.ir"
+                android:layout_width="0dp"
+                android:layout_gravity="top"
+                android:layout_height="match_parent"
+                android:layout_weight="9"
+                android:layout_marginBottom="0dp"
+                android:lineSpacingExtra="3dp"
+                android:paddingRight="4dp"
+                noghteh:text="Gender\n"
+                noghteh:textColor="#515151"
+                noghteh:textSize="@dimen/text_smaller"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".3">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="•"
+                    />
+            </LinearLayout>
+            <com.compunet.stuforia.JustifiedTextView
+                xmlns:noghteh="http://noghteh.ir"
+                android:layout_width="0dp"
+                android:layout_gravity="top"
+                android:layout_height="match_parent"
+                android:layout_weight="9"
+                android:layout_marginBottom="0dp"
+                android:lineSpacingExtra="3dp"
+                android:paddingRight="4dp"
+                noghteh:text="Contact information including email address\n"
+                noghteh:textColor="#515151"
+                noghteh:textSize="@dimen/text_smaller"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".3">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="•"
+                    />
+            </LinearLayout>
+            <com.compunet.stuforia.JustifiedTextView
+                xmlns:noghteh="http://noghteh.ir"
+                android:layout_width="0dp"
+                android:layout_gravity="top"
+                android:layout_height="match_parent"
+                android:layout_weight="9"
+                android:layout_marginBottom="0dp"
+                android:lineSpacingExtra="3dp"
+                android:paddingRight="4dp"
+                noghteh:text="Income\n"
+                noghteh:textColor="#515151"
+                noghteh:textSize="@dimen/text_smaller"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".3">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="•"
+                    />
+            </LinearLayout>
+            <com.compunet.stuforia.JustifiedTextView
+                xmlns:noghteh="http://noghteh.ir"
+                android:layout_width="0dp"
+                android:layout_gravity="top"
+                android:layout_height="match_parent"
+                android:layout_weight="9"
+                android:layout_marginBottom="0dp"
+                android:lineSpacingExtra="3dp"
+                android:paddingRight="4dp"
+                noghteh:text="Demographic information such as postcode, preferences and interests\n"
+                noghteh:textColor="#515151"
+                noghteh:textSize="@dimen/text_smaller"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".3">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="•"
+                    />
+            </LinearLayout>
+            <com.compunet.stuforia.JustifiedTextView
+                xmlns:noghteh="http://noghteh.ir"
+                android:layout_width="0dp"
+                android:layout_gravity="top"
+                android:layout_height="match_parent"
+                android:layout_weight="9"
+                android:layout_marginBottom="0dp"
+                android:lineSpacingExtra="3dp"
+                android:paddingRight="4dp"
+                noghteh:text="Such other documents required for the purpose of verification and authentication.\n"
+                noghteh:textColor="#515151"
+                noghteh:textSize="@dimen/text_smaller"
+                />
+        </LinearLayout>
+
+
+
+        <!--  <com.compunet.stuforia.JustifiedTextView
+              xmlns:noghteh="http://noghteh.ir"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:lineSpacingExtra="3dp"
+              android:layout_marginBottom="0dp"
+              noghteh:text="• Name and Job title\n\n"
+              noghteh:textColor="@color/text_Black"
+              noghteh:textSize="@dimen/text_smaller"
+              android:paddingRight="4dp" />
+
+          <com.compunet.stuforia.JustifiedTextView
+              xmlns:noghteh="http://noghteh.ir"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:lineSpacingExtra="3dp"
+              android:layout_marginBottom="0dp"
+              noghteh:text="• Birth date\n\n"
+              noghteh:textColor="@color/text_Black"
+              noghteh:textSize="@dimen/text_smaller"
+              android:paddingRight="4dp" />
+
+          <com.compunet.stuforia.JustifiedTextView
+              xmlns:noghteh="http://noghteh.ir"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:lineSpacingExtra="3dp"
+              android:layout_marginBottom="0dp"
+              noghteh:text="• Gender\n\n"
+              noghteh:textColor="@color/text_Black"
+              noghteh:textSize="@dimen/text_smaller"
+              android:paddingRight="4dp" />
+
+          <com.compunet.stuforia.JustifiedTextView
+              xmlns:noghteh="http://noghteh.ir"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:lineSpacingExtra="3dp"
+              android:layout_marginBottom="0dp"
+              noghteh:text="• Contact information including email address\n\n"
+              noghteh:textColor="@color/text_Black"
+              noghteh:textSize="@dimen/text_smaller"
+              android:paddingRight="4dp" />
+
+          <com.compunet.stuforia.JustifiedTextView
+              xmlns:noghteh="http://noghteh.ir"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:lineSpacingExtra="3dp"
+              android:layout_marginBottom="0dp"
+              noghteh:text="• Income\n\n"
+              noghteh:textColor="@color/text_Black"
+              noghteh:textSize="@dimen/text_smaller"
+              android:paddingRight="4dp" />
+
+          <com.compunet.stuforia.JustifiedTextView
+              xmlns:noghteh="http://noghteh.ir"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:lineSpacingExtra="3dp"
+              android:layout_marginBottom="0dp"
+              noghteh:text="• Demographic information such as postcode, preferences and interests\n\n"
+              noghteh:textColor="@color/text_Black"
+              noghteh:textSize="@dimen/text_smaller"
+              android:paddingRight="4dp" />
+
+          <com.compunet.stuforia.JustifiedTextView
+              xmlns:noghteh="http://noghteh.ir"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:lineSpacingExtra="3dp"
+              android:layout_marginBottom="0dp"
+              noghteh:text="• Such other documents required for the purpose of verification and authentication.\n\n"
+              noghteh:textColor="@color/text_Black"
+              noghteh:textSize="@dimen/text_smaller"
+              android:paddingRight="4dp" />-->
+
+        <TextView
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What we do with the information we gathered?"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_small"
+            android:layout_marginBottom="@dimen/margin"
+            android:textColor="@color/text_Black"
+            android:layout_marginTop="@dimen/margin" />
+
+        <!-- <com.compunet.stuforia.JustifiedTextView
+             xmlns:noghteh="http://noghteh.ir"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:lineSpacingExtra="3dp"
+             android:layout_marginBottom="0dp"
+             noghteh:text="We require this information to understand your needs and provide you with a better service, and in particular for the following reasons: \n\n• Internal record keeping. \n\n\t• We may use the informations to provide services relating to your specific and ancillary requirements such as processing and securing admission to Educational Institutions in the destination country, travel arrangements, insurance, finance, etc. \n\n• We may use the information to improve our products and services. \n\n\t• We may periodically send promotional email about new products, special offers or other information which we think you may find interesting using the email address which you have provided. \n\n\t• From time to time, we may also use your information to contact you for market research purposes. We may contact you by email, phone, fax or mail. We may use the information to customise the Application according to your interests."
+             noghteh:textColor="@color/text_Black"
+             noghteh:textSize="@dimen/text_smaller"
+             android:paddingRight="4dp" />-->
+        <com.compunet.stuforia.JustifiedTextView
+            xmlns:noghteh="http://noghteh.ir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="3dp"
+            android:layout_marginBottom="0dp"
+            noghteh:text="We require this information to understand your needs and provide you with a better service, and in particular for the following reasons: \n"
+            noghteh:textColor="@color/text_Black"
+            noghteh:textSize="@dimen/text_smaller"
+            android:paddingRight="4dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".3">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="•"
+                    />
+            </LinearLayout>
+            <com.compunet.stuforia.JustifiedTextView
+                xmlns:noghteh="http://noghteh.ir"
+                android:layout_width="0dp"
+                android:layout_gravity="top"
+                android:layout_height="match_parent"
+                android:layout_weight="9"
+                android:layout_marginBottom="0dp"
+                android:lineSpacingExtra="3dp"
+                android:paddingRight="4dp"
+                noghteh:text="Internal record keeping. \n"
+                noghteh:textColor="#515151"
+                noghteh:textSize="@dimen/text_smaller"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".3">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="•"
+                    />
+            </LinearLayout>
+            <com.compunet.stuforia.JustifiedTextView
+                xmlns:noghteh="http://noghteh.ir"
+                android:layout_width="0dp"
+                android:layout_gravity="top"
+                android:layout_height="match_parent"
+                android:layout_weight="9"
+                android:layout_marginBottom="0dp"
+                android:lineSpacingExtra="3dp"
+                android:paddingRight="4dp"
+                noghteh:text="We may use the informations to provide services relating to your specific and ancillary requirements such as processing and securing admission to Educational Institutions in the destination country, travel arrangements, insurance, finance, etc. \n"
+                noghteh:textColor="#515151"
+                noghteh:textSize="@dimen/text_smaller"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".3">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="•"
+                    />
+            </LinearLayout>
+            <com.compunet.stuforia.JustifiedTextView
+                xmlns:noghteh="http://noghteh.ir"
+                android:layout_width="0dp"
+                android:layout_gravity="top"
+                android:layout_height="match_parent"
+                android:layout_weight="9"
+                android:layout_marginBottom="0dp"
+                android:lineSpacingExtra="3dp"
+                android:paddingRight="4dp"
+                noghteh:text="We may use the information to improve our products and services. \n"
+                noghteh:textColor="#515151"
+                noghteh:textSize="@dimen/text_smaller"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".3">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="•"
+                    />
+            </LinearLayout>
+            <com.compunet.stuforia.JustifiedTextView
+                xmlns:noghteh="http://noghteh.ir"
+                android:layout_width="0dp"
+                android:layout_gravity="top"
+                android:layout_height="match_parent"
+                android:layout_weight="9"
+                android:layout_marginBottom="0dp"
+                android:lineSpacingExtra="3dp"
+                android:paddingRight="4dp"
+                noghteh:text="We may periodically send promotional email about new products, special offers or other information which we think you may find interesting using the email address which you have provided. \n"
+                noghteh:textColor="#515151"
+                noghteh:textSize="@dimen/text_smaller"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".3">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="•"
+                    />
+            </LinearLayout>
+            <com.compunet.stuforia.JustifiedTextView
+                xmlns:noghteh="http://noghteh.ir"
+                android:layout_width="0dp"
+                android:layout_gravity="top"
+                android:layout_height="match_parent"
+                android:layout_weight="9"
+                android:layout_marginBottom="0dp"
+                android:lineSpacingExtra="3dp"
+                android:paddingRight="4dp"
+                noghteh:text="From time to time, we may also use your information to contact you for market research purposes. We may contact you by email, phone, fax or mail. We may use the information to customise the Application according to your interests."
+                noghteh:textColor="#515151"
+                noghteh:textSize="@dimen/text_smaller"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".3">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="•"
+                    />
+            </LinearLayout>
+            <com.compunet.stuforia.JustifiedTextView
+                xmlns:noghteh="http://noghteh.ir"
+                android:layout_width="0dp"
+                android:layout_gravity="top"
+                android:layout_height="match_parent"
+                android:layout_weight="9"
+                android:layout_marginBottom="0dp"
+                android:lineSpacingExtra="3dp"
+                android:paddingRight="4dp"
+                noghteh:text="Such other documents required for the purpose of verification and authentication.\n"
+                noghteh:textColor="#515151"
+                noghteh:textSize="@dimen/text_smaller"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".3">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="•"
+                    />
+            </LinearLayout>
+            <com.compunet.stuforia.JustifiedTextView
+                xmlns:noghteh="http://noghteh.ir"
+                android:layout_width="0dp"
+                android:layout_gravity="top"
+                android:layout_height="match_parent"
+                android:layout_weight="9"
+                android:layout_marginBottom="0dp"
+                android:lineSpacingExtra="3dp"
+                android:paddingRight="4dp"
+                noghteh:text="Such other documents required for the purpose of verification and authentication.\n"
+                noghteh:textColor="#515151"
+                noghteh:textSize="@dimen/text_smaller"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".3">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="•"
+                    />
+            </LinearLayout>
+            <com.compunet.stuforia.JustifiedTextView
+                xmlns:noghteh="http://noghteh.ir"
+                android:layout_width="0dp"
+                android:layout_gravity="top"
+                android:layout_height="match_parent"
+                android:layout_weight="9"
+                android:layout_marginBottom="0dp"
+                android:lineSpacingExtra="3dp"
+                android:paddingRight="4dp"
+                noghteh:text="Such other documents required for the purpose of verification and authentication.\n"
+                noghteh:textColor="#515151"
+                noghteh:textSize="@dimen/text_smaller"
+                />
+        </LinearLayout>
+        <TextView
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Security"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_small"
+            android:layout_marginBottom="@dimen/margin"
+            android:textColor="@color/text_Black"
+            android:layout_marginTop="@dimen/margin" />
+
+        <com.compunet.stuforia.JustifiedTextView
+            xmlns:noghteh="http://noghteh.ir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="3dp"
+            android:layout_marginBottom="0dp"
+            noghteh:text="We are committed to ensuring that your information is secure. In order to prevent unauthorised access or disclosure we have put in place suitable physical, electronic and managerial procedures to safeguard and secure the information we collect online."
+            noghteh:textColor="@color/text_Black"
+            noghteh:textSize="@dimen/text_smaller"
+            android:paddingRight="4dp" />
+
+
+        <TextView
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How we use cookies"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_small"
+            android:layout_marginBottom="@dimen/margin"
+            android:textColor="@color/text_Black"
+            android:layout_marginTop="@dimen/margin" />
+
+        <com.compunet.stuforia.JustifiedTextView
+            xmlns:noghteh="http://noghteh.ir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="3dp"
+            android:layout_marginBottom="0dp"
+            noghteh:text="A cookie is a small file which asks permission to be placed on your mobile's hard drive. Once you agree, the file is added and the cookie helps analyse web traffic or lets you know when you visit a particular Application. Cookies allow web applications to respond to you as an individual. The web application can tailor its operations to your needs, likes and dislikes by gathering and remembering information about your preferences. We use traffic log cookies to identify which Applications are being used. This helps us analyse data about web Application traffic and improve our Application in order to tailor it to customer needs. We only use this information for statistical analysis purposes and then the data is removed from the system. Overall, cookies help us provide you with a better Application, by enabling us to monitor which Applications you find useful and which you do not. A cookie in no way gives us access to your mobile or any information about you, other than the data you choose to share with us. You can choose to accept or decline cookies. Most web browsers automatically accept cookies, but you can usually modify your browser setting to decline cookies if you prefer. This may prevent you from taking full advantage of the Application."
+            noghteh:textColor="@color/text_Black"
+            noghteh:textSize="@dimen/text_smaller"
+            android:paddingRight="4dp" />
+
+        <TextView
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Links to other applications"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_small"
+            android:layout_marginBottom="@dimen/margin"
+            android:textColor="@color/text_Black"
+            android:layout_marginTop="@dimen/margin" />
+
+
+        <com.compunet.stuforia.JustifiedTextView
+            xmlns:noghteh="http://noghteh.ir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="3dp"
+            android:layout_marginBottom="0dp"
+            noghteh:text="Our Application may contain links to other Applications of interest. However, once you have used these links to leave our Application, you should note that we do not have any control over that other Application. Therefore, we cannot be responsible for the protection and privacy of any information which you provide whilst visiting such Applications and such Applications are not governed by this privacy statement. You should exercise caution and look at the privacy statement applicable to the Application in question."
+            noghteh:textColor="@color/text_Black"
+            noghteh:textSize="@dimen/text_smaller"
+            android:paddingRight="4dp" />
+
+
+
+        <TextView
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Controlling your personal information"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_small"
+            android:layout_marginBottom="@dimen/margin"
+            android:textColor="@color/text_Black"
+            android:layout_marginTop="@dimen/margin" />
+
+
+        <!-- <com.compunet.stuforia.JustifiedTextView
+             xmlns:noghteh="http://noghteh.ir"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:lineSpacingExtra="3dp"
+             android:layout_marginBottom="0dp"
+             noghteh:text="You may choose to restrict the collection or use of your personal information in the following ways: \n\n\t• Whenever you are asked to fill in a form on the Application, look for the box that you can click to indicate that you do not want the information to be used by anybody for direct marketing purposes like subscribing to newsletters. \n\n\t• If you have previously agreed to us using your personal information for direct marketing purposes, you may change your mind at any time by writing to or emailing us at info@stuforia.com. We will not sell, distribute or lease your personal information to third parties unless we have your permission or are required by law to do so. We may use your personal information to send you promotional information about third parties which we think you may find interesting if you tell us that you wish this to happen. If you believe that any information we are holding on you is incorrect or incomplete, please write to or email us as soon as possible, at the above address. We will promptly correct any information found to be incorrect."
+             noghteh:textColor="@color/text_Black"
+             noghteh:textSize="@dimen/text_smaller"
+             android:paddingRight="4dp" />-->
+        <com.compunet.stuforia.JustifiedTextView
+            xmlns:noghteh="http://noghteh.ir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="3dp"
+            android:layout_marginBottom="0dp"
+            noghteh:text="You may choose to restrict the collection or use of your personal information in the following ways: \n"
+            noghteh:textColor="@color/text_Black"
+            noghteh:textSize="@dimen/text_smaller"
+            android:paddingRight="4dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".3">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="•"
+                    />
+            </LinearLayout>
+            <com.compunet.stuforia.JustifiedTextView
+                xmlns:noghteh="http://noghteh.ir"
+                android:layout_width="0dp"
+                android:layout_gravity="top"
+                android:layout_height="match_parent"
+                android:layout_weight="9"
+                android:layout_marginBottom="0dp"
+                android:lineSpacingExtra="3dp"
+                android:paddingRight="4dp"
+                noghteh:text="Whenever you are asked to fill in a form on the Application, look for the box that you can click to indicate that you do not want the information to be used by anybody for direct marketing purposes like subscribing to newsletters. \n"
+                noghteh:textColor="#515151"
+                noghteh:textSize="@dimen/text_smaller"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".3">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="•"
+                    />
+            </LinearLayout>
+            <com.compunet.stuforia.JustifiedTextView
+                xmlns:noghteh="http://noghteh.ir"
+                android:layout_width="0dp"
+                android:layout_gravity="top"
+                android:layout_height="match_parent"
+                android:layout_weight="9"
+                android:layout_marginBottom="0dp"
+                android:lineSpacingExtra="3dp"
+                android:paddingRight="4dp"
+                noghteh:text="If you have previously agreed to us using your personal information for direct marketing purposes, you may change your mind at any time by writing to or emailing us at info@stuforia.com. We will not sell, distribute or lease your personal information to third parties unless we have your permission or are required by law to do so. We may use your personal information to send you promotional information about third parties which we think you may find interesting if you tell us that you wish this to happen. If you believe that any information we are holding on you is incorrect or incomplete, please write to or email us as soon as possible, at the above address. We will promptly correct any information found to be incorrect."
+                noghteh:textColor="#515151"
+                noghteh:textSize="@dimen/text_smaller"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

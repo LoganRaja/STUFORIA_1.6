@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:background="@color/lightgray"
+            android:orientation="vertical"
+            >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/margin">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:id="@+id/introBtn">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_ambitious"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="AMBITIOUS"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:id="@+id/visaProcessingBtn">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_apt"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="APT"/>
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:id="@+id/predepartureBtn"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_assistantship"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="ASSISTANSHIP"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:id="@+id/onusarrivalBtn">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_assured"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="ASSURED"/>
+            </LinearLayout>
+        </LinearLayout>
+        </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scrollbars="vertical"
+        android:layout_weight="8"
+        android:fillViewport="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/padding"
+            >
+
+            <com.compunet.stuforia.JustifiedTextView
+                xmlns:noghteh="http://noghteh.ir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="3dp"
+                noghteh:text="The following steps are involved from end to end in getting in to an American University:\n\n a) Choosing the Universities\n b) Applying to the Universities\n c) Payment of online app fees\n d) Uploading the testimonials\n e) Submitting the documents\n f) Getting admit, offer from University\n g) Accepting I-20 from University \n h) Choosing which University to join? \n i) VISA processing  \n\nHow many Universities to apply? \n\nThere are thousands of Universities in USA and its not easy to pick handful of Universities out of them which meets your requirements then how do you choose a few among them for your master’s?\n\nHere is a tip which will definitely narrow down your search.\n\nDivide the Universities into 4 major categories as following\n"
+                noghteh:textColor="@color/text_Black"
+                android:paddingRight="4dp"
+                android:layout_marginBottom="0dp"
+                noghteh:textSize="@dimen/text_smaller"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/light_Blue"
+                android:textSize="@dimen/text_small"
+                android:paddingTop="@dimen/padding"
+                android:paddingBottom="@dimen/padding"
+                android:text="AMBITIOUS"/>
+
+            <com.compunet.stuforia.JustifiedTextView
+                xmlns:noghteh="http://noghteh.ir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="3dp"
+                noghteh:text="Every endeavour starts with a dream, therefore no matter what you deserve; if you got desire for an ambitious college apply irrespective of looking at the eligibility criteria. As so many factors decide admit apart from scores."
+                noghteh:textColor="@color/text_Black"
+                android:paddingRight="4dp"
+                android:layout_marginBottom="0dp"
+                noghteh:textSize="@dimen/text_smaller"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/accent"
+                android:textSize="@dimen/text_small"
+                android:paddingTop="@dimen/padding"
+                android:paddingBottom="@dimen/padding"
+                android:text="APT"/>
+
+            <com.compunet.stuforia.JustifiedTextView
+                xmlns:noghteh="http://noghteh.ir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="3dp"
+                noghteh:text="Choose colleges based on your scores. Those colleges might be apt for your scores but they would consider other factors as well like SOP, work experience, CV, etc., It is always better to apply 3 apt Universities."
+                noghteh:textColor="@color/text_Black"
+                android:paddingRight="4dp"
+                android:layout_marginBottom="0dp"
+                noghteh:textSize="@dimen/text_smaller"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/orange"
+                android:paddingTop="@dimen/padding"
+                android:paddingBottom="@dimen/padding"
+                android:text="ASSISTANSHIP"
+                android:textSize="@dimen/text_small"/>
+
+
+            <com.compunet.stuforia.JustifiedTextView
+                xmlns:noghteh="http://noghteh.ir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="3dp"
+                noghteh:text="If you are looking for Assistanship choose a unit where the funding scenario is good, you should also check the criteria for funding."
+                noghteh:textColor="@color/text_Black"
+                android:paddingRight="4dp"
+                android:layout_marginBottom="0dp"
+                noghteh:textSize="@dimen/text_smaller"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/green"
+                android:paddingTop="@dimen/padding"
+                android:paddingBottom="@dimen/padding"
+                android:textSize="@dimen/text_small"
+                android:text="ASSURED"/>
+
+            <com.compunet.stuforia.JustifiedTextView
+                xmlns:noghteh="http://noghteh.ir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="3dp"
+                noghteh:text="Then student can apply to as many colleges however taking into account of the processing charges, transcripts, scores, LORs we recommend students to apply somewhere between 6 - 8 Universities. We also suggest you the Universities based on your preferences on the above 4A’s for example if a student is particular about Ambitious units then the student can opt for all his units under the 1st A. Similarly, if somebody wants 50% of admits to the 3rd A and the combination of others then we suggest accordingly. Therefore, choosing the University is the important step and lot of your future plans depends upon this. We might come across a bright student who could be your friend, relative, senior at school/college or at coaching centre who is very bright and exceptional at academics now struggling in the USA post completion of MS or Awaiting admit or no admits from US University. All this results poor planning, lack of information and knowledge and importantly due to misguidance. The Universities have a deadline date before which you got to apply and also send all the required documents (refer University checklist). Many end up in the wrong Universities by virtue of applying late too."
+                noghteh:textColor="@color/text_Black"
+                android:paddingRight="4dp"
+                android:layout_marginBottom="0dp"
+                noghteh:textSize="@dimen/text_smaller"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

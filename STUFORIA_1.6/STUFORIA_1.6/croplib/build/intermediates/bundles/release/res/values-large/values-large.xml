@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/logan%20(E)/PlayStoreProject/STUFORIA_1.6/STUFORIA_1.6/STUFORIA_1.6/croplib/src/main/res/values-large/dimens.xml -->
+    <eat-comment/>
+    <dimen name="crop__bar_height">64dp</dimen>
+</resources>

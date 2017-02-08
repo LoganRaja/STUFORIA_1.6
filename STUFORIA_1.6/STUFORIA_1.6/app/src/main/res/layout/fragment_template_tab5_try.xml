@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:scrollbars="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="@dimen/padding"
+                android:paddingLeft="@dimen/padding"
+                android:paddingRight="@dimen/padding"
+                >
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/r1"
+                        android:orientation="horizontal"
+                        android:weightSum="10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:layout_weight="10"
+                            >
+
+                            <!--<com.compunet.stuforia.JustifiedTextView
+                                xmlns:noghteh="http://noghteh.ir"
+                                android:id="@+id/txt"
+                                noghteh:textSize="@dimen/text_smaller"
+                                noghteh:textColor="@color/text_Black"
+                                android:paddingRight="4dp"
+                                android:layout_marginBottom="0dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                noghteh:text="Student should describe this, to take up an Educational course and a brief description of student’s academic qualifications, achievements, aims and ambitions. It should explain the reason you choose that specific University, course, curriculum etc.,"/>
+                               <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/margin"
+                                android:textSize="@dimen/margin"/>-->
+                            <com.compunet.stuforia.JustifiedTextView
+                                xmlns:noghteh="http://noghteh.ir"
+                                noghteh:textSize="@dimen/text_smaller"
+                                noghteh:textColor="@color/text_Black"
+                                android:paddingRight="4dp"
+                                android:layout_marginBottom="0dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                noghteh:text="Student should describe this, to take up an educational course and a brief description of student’s academic qualifications, achievements, aims and ambitions. It should explain the reason you choose that specific University, course, curriculum etc.,\n\nA Statement of Purpose (SOP) is very important for a student to impress the University official, its an essay which expresses more things about the student beyond test scores and mark sheets.\n\nThough there is no fixed format for this but take account of the following while you draft an SOP.\n\nThe SOP should be natural and original as the University officials are very strict about plagiarism. Take account of the numbers of words the University wants you to express th essay for e.g. 500 words therefore make sure you finish in 500 or fewer than 500 words.\n\nIt should explain why you choose that particular University, particular course, curriculum etc.,\n\nIt should also contain about your academic achievements and accomplishments, interest in the subject. You can also include other interests and extra curricular activities.\n\nPremium members can send their SOP’s once its drafted and get a valuable feedback from our expert team."/>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone"
+        android:background="#00000000"
+        android:layout_alignParentBottom="true"
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin"
+            android:layout_marginBottom="@dimen/margin"
+            android:gravity="center"
+            android:visibility="visible"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            >
+
+
+            <View
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_margin="2dp"
+                android:radius="12dp"
+                android:background="@drawable/carousel_deselected" />
+            <View
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_margin="2dp"
+                android:radius="12dp"
+                android:background="@drawable/carousel_deselected" />
+            <View
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_margin="2dp"
+                android:radius="12dp"
+                android:background="@drawable/carousel_deselected" />
+            <View
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_margin="2dp"
+                android:radius="12dp"
+                android:background="@drawable/carousel_deselected" />
+            <View
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_margin="2dp"
+                android:background="@drawable/carousel"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
